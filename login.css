@@ -1,0 +1,164 @@
+(() => {
+	var t, e = $(".main-content").attr("data-sitecatalyst-pagename"),
+		a = function() {},
+		i = (a.setPageName = function() {
+			"loginError" === e && (s.pageName = "InvalidLogin", s.prop10 = $(".serverside-message .alert-body").text().trim(), s.list1 = "ERROR:" + s.prop10, s.prop32 = "View Port:" + a.checkViewPort(), s.prop41 = siteObj[cookieData.site], s.events) && delete s.events
+		}, a.checkViewPort = function() {
+			return 991 < window.innerWidth ? "Wide" : window.innerWidth <= 991 && 730 < window.innerWidth ? "Middle" : "Narrow"
+		}, window.discover_rwd || {});
+	i.loginlogout = {
+		init: function() {
+			return !0
+		}
+	}, a.setPageName(), s.t(), i.loginlogout.init(), i.utility.initSiteCat(), window.discover = window.discover || {}, discover.dmp_scripts = ((t = {}).US172987_Logout_Button_Testing = function() {
+		$(".offer-name:visible").text();
+		var a, i, o = "",
+			r = "",
+			t = "",
+			n = "",
+			l = "";
+		discover.loginlogoutactivate = {
+			init: function() {
+				return discover.loginlogoutactivate.addGlassboxScripts(), discover.loginlogoutactivate.getallQuartersData(), discover.loginlogoutactivate.addEvents(), discover.loginlogoutactivate.getViewPort(), !0
+			},
+			retrieveCookie: function(e) {
+				e = ("; " + document.cookie).split(`; ${e}=`);
+				if (2 === e.length) return e.pop().split(";").shift()
+			},
+			addGlassboxScripts: function() {
+				var a = !0,
+					i = document.cookie.split(";");
+				for (let t = 0; t < i.length; t++) {
+					let e = i[t].substring(0, i[t].indexOf("="));
+					if (e = e.trim(), 0 < window.location.href.indexOf("X-DFS-ENV") || "envc" === e) {
+						a = !1;
+						break
+					}
+				}
+				var e = document.createElement("script"),
+					t = document.getElementsByTagName("script")[0];
+				e.async = !0;
+				let o = "";
+				0 <= window.location.hostname.indexOf("localhost") ? console.log("Not monitoring AppD due to localhost") : o = a ? (console.log("Monitoring with AppD in PROD"), e.src = "https://assets.adobedtm.com/1e5ef0994701/074ff9482cd4/launch-1691a958f458.min.js", "AD-AAB-ACG-KZN") : (console.log("Monitoring with AppD in Dev"), e.src = "https://assets.adobedtm.com/1e5ef0994701/074ff9482cd4/launch-e9c8e087642e-development.min.js", "AD-AAB-ACG-MAR"), window._env = {
+					APPDYNAMICS_APP_KEY: o
+				}, t.parentNode.insertBefore(e, t)
+			},
+			getallQuartersData: function() {
+				l = discover.loginlogoutactivate.retrieveCookie("selAcct"), null == (l = isNaN(l) ? discover.loginlogoutactivate.retrieveCookie("dfsedskey") : l) || 0 == l.length ? ($(".loading-container").addClass("hide"), $(".activate-offer").addClass("hide"), $(".activated-offer").addClass("hide"), discover.loginlogoutactivate.rewardModuleDisplayFailure()) : (null != (n = discover.loginlogoutactivate.retrieveCookie("logoutOneClickToken")) && "undefined" != n ? (localStorage.setItem("logoutOneClickToken", n), document.cookie = "logoutOneClickToken=undefined; domain=.discover.com; path=/; secure; expires=Thu, 01 Jan 1970 00:00:00 UTC; samesite=lax;") : n = localStorage.getItem("logoutOneClickToken"), $.ajax({
+					type: "GET",
+					url: "https://card.discover.com/cardissuer/rewards/enrollment/v1/logout-offer?ekey=" + l,
+					cache: !1,
+					dataType: "json",
+					xhrFields: {
+						withCredentials: !0
+					},
+					success: function(e) {
+						0 == (dataFromAjax = e).offers.length || e.accountBlockedFromEnroll ? ($(".loading-container").addClass("hide"), $(".activate-offer").addClass("hide"), $(".activated-offer").addClass("hide")) : (offerData = e.offers[0], startDateActivate = offerData.enrollStartDate, EndDateActivate = offerData.enrollEndDate, discover.loginlogoutactivate.loadDynamicData(dataFromAjax), discover.loginlogoutactivate.getQuarterDetails(), discover.loginlogoutactivate.rewardModuleStartPage(dataFromAjax), (0 == offerData.enrolled ? ($(".loading-container").addClass("hide"), $(".activation-container")) : ($(".loading-container").addClass("hide"), $(".activation-container").removeClass("hide"), $(".activate-offer").addClass("hide"), $(".activated-offer").addClass("hide"), $(".usage-offer"))).removeClass("hide"))
+					},
+					error: function(e) {
+						$(".loading-container").addClass("hide"), $(".activation-container").addClass("hide"), $(".activation-container").addClass("hide"), $(".log-back-in").addClass("hide"), discover.loginlogoutactivate.rewardModuleTechDiff()
+					}
+				}))
+			},
+			loadDynamicData: function(e) {
+				data = e.offers[0], r = data.offerId;
+				for (var t = 0; t < data.offerTitle.length; t++)
+					if (data.offerId == $(".activate-btn-wrapper .btn-primary").attr("data-offerid")) {
+						$("section.activation-container").attr("id", "offer_" + data.offerId), data.offerId, o = t, $("section.activation-container").addClass("quarter-" + o);
+						break
+					} var a = data.imageUrl;
+				$(".activate-btn-wrapper .btn-primary").attr("data-offerid", data.offerId), $(".offer-image").attr("src", a), $(".offer-name").append(data.offerTitle), $(".end-date").append(data.enrollEndDate), $(".spend-cap").append(data.promoCap.QPA), "000001" == e.incentiveCode ? $(".remember-purchaes").append("You&#39;ll still earn cash back on all other purchases.") : $(".remember-purchaes").append("You&#39;ll still earn unlimited 1% cash back on all other purchases&#44; automatically."), $(".program-details").append(data.offerDisclosure + " " + e.disclosureCommon), 1 == data.enrolled ? 0 == data.inclusionCriteria.length && 0 == data.exclusionCriteria.length ? $(".usage-offer .offer-detail-info").html(data.offerDescription) : 0 < data.inclusionCriteria.length && 0 < data.exclusionCriteria.length ? $(".usage-offer .offer-detail-info").html(data.offerDescription + " " + data.inclusionCriteria + " " + data.exclusionCriteria) : 0 < data.exclusionCriteria.length ? $(".usage-offer .offer-detail-info").html(data.offerDescription + " " + data.exclusionCriteria) : $(".usage-offer .offer-detail-info").html(data.offerDescription + " " + data.inclusionCriteria) : 0 == data.inclusionCriteria.length && 0 == data.exclusionCriteria.length ? $(".activate-offer .offer-detail-info").html(data.offerDescription) : 0 < data.inclusionCriteria.length && 0 < data.exclusionCriteria.length ? $(".activate-offer .offer-detail-info").html(data.offerDescription + " " + data.inclusionCriteria + " " + data.exclusionCriteria) : 0 < data.exclusionCriteria.length ? $(".activate-offer .offer-detail-info").html(data.offerDescription + " " + data.exclusionCriteria) : $(".activate-offer .offer-detail-info").html(data.offerDescription + " " + data.inclusionCriteria), $(".activated-offer .offer-detail-info,.usage-offer .offer-detail-info").css("font-size", "1.4em").css("outline", "none"), 0 == data.inclusionCriteria.length && 0 == data.exclusionCriteria.length ? $(".activated-offer .offer-detail-info").html(data.offerDescription) : 0 < data.inclusionCriteria.length && 0 < data.exclusionCriteria.length ? $(".activated-offer .offer-detail-info").html(data.offerDescription + " " + data.inclusionCriteria + " " + data.exclusionCriteria) : 0 < data.exclusionCriteria.length ? $(".activated-offer .offer-detail-info").html(data.offerDescription + " " + data.exclusionCriteria) : $(".activated-offer .offer-detail-info").html(data.offerDescription + " " + data.inclusionCriteria)
+			},
+			startDateCalculate: function(e, t) {
+				var a, i;
+				return quarterStartDate = "now" == e ? (a = (e = new Date).getDate(), i = e.getMonth() + 1, e = e.getFullYear(), ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][(i = i < 10 ? "0" + i : i) - 1] + " " + (a = a < 10 ? "0" + a : a) + ", " + e) : t.quarterStartDate
+			},
+			startDateCalculateForOffer: function(e, t) {
+				t = new Date(t), e = new Date(e);
+				return e < t ? e : t
+			},
+			getFullDateFormat: function(e) {
+				return new Date(e)
+			},
+			getQuarterDetails: function() {
+				var e = data.calendarStartDate,
+					e = (t = discover.loginlogoutactivate.startDateCalculateForOffer(e, dataFromAjax.logicalDate)).getMonth() + 1;
+				a = t.getFullYear(), i = e <= 3 ? "Q1" : 3 < e && e < 7 ? "Q2" : 6 < e && e < 10 ? "Q3" : "Q4"
+			},
+			getViewPort: function() {
+				var e = getWin();
+				discover.loginlogoutactivate.viewPort = 991 < e ? "Wide" : 729 <= e && e <= 991 ? "Middle" : "Narrow"
+			},
+			addEvents: function() {
+				$("body").on("click tap", ".activate-btn-wrapper .btn-primary", function(e) {
+					discover.loginlogoutactivate.activateNowLinkLoggedOff(), e.preventDefault(), null == n || 0 == n.length ? ($(".loading-container").addClass("hide"), $(".activate-offer").addClass("hide"), $(".activated-offer").addClass("hide"), $(".error-page").removeClass("hide"), $(".error-description").html("Sorry for any inconvenience, something went wrong"), $(".log-back-in").addClass("hide"), discover.loginlogoutactivate.rewardModuleDisplayFailure()) : $.ajax({
+						url: "https://card.discover.com/cardissuer/rewards/enrollment/v1/logout-enroll",
+						dataType: "json",
+						type: "POST",
+						data: JSON.stringify({
+							clickId: n,
+							cardAccountKey: l,
+							offerId: r
+						}),
+						contentType: "application/json",
+						xhrFields: {
+							withCredentials: !0
+						},
+						success: function(e) {
+							localStorage.removeItem("logoutOneClickToken"), discover.loginlogoutactivate.rewardModuleConfirmPage(), $(".offer-container").addClass("activated"), $(".program-details").html(e.programTerms), setTimeout(function() {
+								$(".activated-offer .offer-detail-info").attr("tabindex", 0).focus().css("outline", "none")
+							}, 20)
+						},
+						error: function(e, t, a) {
+							$(".logout-container .error-page").removeClass("hide"), $(".activation-container").addClass("hide"), $(".activation-container").addClass("hide"), $(".log-back-in").addClass("hide"), discover.loginlogoutactivate.rewardModuleTechDiff()
+						}
+					})
+				})
+			},
+			calculateWinWidth: function() {
+				var e = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+				return sViewPort = "Narrow", 991 < e ? sViewPort = "Wide" : 729 < e && (sViewPort = "Middle"), sViewPort
+			},
+			clearSiteCat: function() {
+				s.prop41 = "", s.list3 = s.prop1 = s.prop32 = ""
+			},
+			activateNowLinkLoggedOff: function() {
+				discover.loginlogoutactivate.clearSiteCat(), s.linkTrackVars = s.linkTrackVars + ",prop1,prop32", s.prop1 = "5pct 1Click:Logout Page:Rewards Module:Link:Activate Now:" + a + "-" + i, s.prop32 = "View Port:" + discover.loginlogoutactivate.calculateWinWidth(), s.tl(this, "o", s.prop1)
+			},
+			rewardModuleTechDiff: function() {
+				discover.loginlogoutactivate.clearSiteCat(), s.pageName = "5pct 1Click:Logout Page:Rewards Module:Tech Diff", s.list3 = "5pct 1CLick:" + a + "-" + i + ":not activated", s.prop41 = "5pct 1Click:Logout Page:Rewards Module:Tech Diff", s.prop32 = "View Port:" + discover.loginlogoutactivate.calculateWinWidth(), s.t()
+			},
+			rewardModuleStartPage: function(e) {
+				discover.loginlogoutactivate.clearSiteCat();
+				var t = "usage";
+				0 == e.enrolled && (t = "qualification" == e.offerStatus ? "not activated enroll" : "not activated pre-enroll"), s.pageName = "5pct 1Click:Logout Page:Rewards Module:Start", s.list3 = "5pct 1CLick:" + a + "-" + i + ":" + t, s.prop41 = "5pct 1Click:Logout Page:Rewards Module:Start", s.prop32 = "View Port:" + discover.loginlogoutactivate.calculateWinWidth(), s.t()
+			},
+			rewardModuleConfirmPage: function() {
+				discover.loginlogoutactivate.clearSiteCat(), s.pageName = "5pct 1Click:Logout Page:Rewards Module:Confirmation", s.list3 = "5pct 1CLick:" + a + "-" + i + ":activate", s.prop41 = "5pct 1Click:Logout Page:Rewards Module:Confirmation", s.prop32 = "View Port:" + discover.loginlogoutactivate.calculateWinWidth(), s.t()
+			},
+			rewardModuleDisplayFailure: function() {
+				discover.loginlogoutactivate.clearSiteCat(), s.pageName = "5pct 1Click Modal:Logout Page:Rewards Module:Display Failure", s.prop41 = "5pct 1Click Modal:Logout Page:Rewards Module:Display Failure", s.prop32 = "View Port:" + discover.loginlogoutactivate.calculateWinWidth(), s.t()
+			}
+		}, discover.loginlogoutactivate.init()
+	}, t.US414795_DPL_TMLink_Tracking = function() {
+		var e = $("#dmp-dpl-link").attr("data-track"),
+			e = (getTrackNew = e.replace("omclk", "tmclk").replace("omtxid", "tmtxid"), $("#dmp-dpl-link").attr("href")); - 1 != e.indexOf("?") ? $("#dmp-dpl-link").attr("href", e + "&" + getTrackNew) : $("#dmp-dpl-link").attr("href", e + "?" + getTrackNew), 0 < $("#replaceUrl").length && setTimeout(function() {
+			$("#dmp-dpl-link").attr("href", $("#replaceUrl").val() + "&" + getTrackNew), $("#dmp-dpl-link").removeAttr("target")
+		}, 9e5)
+	}, t.DP_16181_DPL_URL_change = function() {
+		0 < $("#replaceUrl").length && setTimeout(function() {
+			$("#dmp-dpl-link").attr("href", $("#replaceUrl").val()), $("#dmp-dpl-link").removeAttr("target")
+		}, 9e5)
+	}, t.US222945_DPL_Link_Tracking = function() {
+		var e = $("#dmp-dpl-link").attr("data-track"),
+			t = $("#dmp-dpl-link").attr("href");
+		$("#dmp-dpl-link").attr("href", t + "?" + e)
+	}, {
+		init: function() {
+			$("[data-omu-script]").each(function() {
+				var e = this.getAttribute("data-omu-script");
+				e && "" !== e && t[e] && t[e]()
+			})
+		}
+	})
+})();

