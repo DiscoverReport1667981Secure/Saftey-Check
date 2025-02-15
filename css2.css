@@ -1,7 +1,7 @@
-@charset UTF-8;
+@charset UTF-: 8;
 
 @font-face {
-	font-familyDiscoverSans-Bold;
+	font-family: DiscoverSans-Bold;
 	srcurl(globalpublicfontsDiscoverSans-Bold.eot#iefix) format(embedded-opentype),
 	url(sans.woff) format(woff);
 	font-weightbold;
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-	font-familyDiscoverSans-Book;
+	font-family: DiscoverSans-Book;
 	srcurl(globalpublicfontsDiscoverSans-Book.eot#iefix) format(embedded-opentype),
 	url(sans.woff) format(woff);
 	font-weightnormal;
@@ -17,12 +17,12 @@
 }
 
 .login-wrapper {
-	margin-top30px
+	margin-top: 30px;
 }
 
 .timeout-alert,
 .logout-alert {
-	margin-top30px
+	margin-top: 30px;
 }
 
 .timeout-alert a,
@@ -31,42 +31,42 @@
 }
 
 #logout-mainheading {
-	margin-bottom20%
+	margin-bottom: 20%;
 }
 
 .logout-mainheading {
-	padding45px 0 30px 0;
+	padding: 45px 0 30px 0;
 	text-aligncenter
 }
 
 .logout-mainheading .image-container {
-	margin-top5px
+	margin-top: 5px;
 }
 
-.logout-mainheading h1 {
-	font-size1.2em;
+.logout-mainheading h: 1 {
+	font-size: 1.2em;
 	font-weightbold
 }
 
-.logout-mainheading h1 p {
-	font-size1.00em;
+.logout-mainheading h: 1 p {
+	font-size: 1.00em;
 	font-weightbold
 }
 
 .loader-image {
-	margin0 auto;
-	height30px;
-	width40px;
-	backgroundurl(applicationslogin-logoutimagesdealsLoader.gif) no-repeat center center
+	margin: 0 auto;
+	height: 30px;
+	width: 40px;
+	background: url(applicationslogin-logoutimagesdealsLoader.gif) no-repeat center center;
 }
 
 .permanent-lock .top-contain {
-	padding38px 0 38px 0;
-	margin-bottom33px
+	padding: 38px 0 38px 0;
+	margin-bottom: 33px;
 }
 
 .permanent-lock .headline {
-	margin-bottom25px
+	margin-bottom: 25px;
 }
 
 .permanent-lock .go-btn-discover .btn-primaryhover,
@@ -88,7 +88,7 @@
 .permanent-lock .customer-message .phone-numberactive,
 .permanent-lock .customer-message .phone-numberfocus {
 	text-decorationnone;
-	outline0
+	outline: 0;
 }
 
 .permanent-lock #lpPermLockButton {
@@ -100,11 +100,11 @@
 }
 
 .permanent-lock #lpPermLockButton p a {
-	font-size15px !important
+	font-size: 15px !important;
 }
 
 .permanent-lock .go-btn-discover {
-	margin-top30px
+	margin-top: 30px;
 }
 
 #chat-perm-lock-english {
@@ -112,54 +112,54 @@
 }
 
 .main-content {
-	padding-top20px
+	padding-top: 20px;
 }
 
 .main-content .account-features {
-	width471px
+	width: 471px;
 }
 
 .main-content .main-heading {
-	margin-bottom20px;
-	font-size1.5em
+	margin-bottom: 20px;
+	font-size: 1.5em;
 }
 
-@media(max-width991px) {
+@media(max-width: 991px) {
 	.permanent-lock .headline {
-		width96%
+		width: 96%;
 	}
 }
 
-@media(max-width729px) {
+@media(max-width: 729px) {
 	.login-wrapper .content-login {
-		border1px solid #dbdbdb;
-		box-shadow0 9px 0 -5px #dbdbdb;
-		-webkit-box-shadow0 9px 0 -5px #dbdbdb;
-		-moz-box-shadow0 9px 0 -5px #dbdbdb;
-		margin0 auto
+		border: 1px solid #dbdbdb;
+		box-shadow: 0 9px 0 -5px #dbdbdb;
+		-webkit-box-shadow: 0 9px 0 -5px #dbdbdb;
+		-moz-box-shadow: 0 9px 0 -5px #dbdbdb;
+		margin: 0 auto;
 	}
 
 	.login-wrapper .serverside-message {
-		width100%;
-		margin0 0 22px 0;
-		border1px solid #dbdbdb;
-		-webkit-box-shadow0 9px 0 -6px #dbdbdb;
-		-moz-box-shadow0 9px 0 -6px #dbdbdb;
-		box-shadow0 9px 0 -6px #dbdbdb
+		width: 100%;
+		margin: 0 0 22px 0;
+		border: 1px solid #dbdbdb;
+		-webkit-box-shadow: 0 9px 0 -6px #dbdbdb;
+		-moz-box-shadow: 0 9px 0 -6px #dbdbdb;
+		box-shadow: 0 9px 0 -6px #dbdbdb;
 	}
 
 	.timeout-alert,
 	.logout-alert {
-		margin-top0;
-		border-top0
+		margin-top: 0;
+		border-top: 0;
 	}
 
 	#logout-mainheading {
-		margin-bottom55%
+		margin-bottom: 55%;
 	}
 
 	.permanent-lock .headline {
-		width100%
+		width: 100%;
 	}
 
 	.permanent-lock .go-btn-discover {
@@ -167,13 +167,13 @@
 	}
 
 	.main-content .account-features {
-		width100%;
-		padding-right42px
+		width: 100%;
+		padding-right: 42px;
 	}
 }
 
 @font-face {
-	font-familyDiscoverSans-Medium;
+	font-family: DiscoverSans-Medium;
 	srcurl(globalpublicfontsDiscoverSans-Medium.eot);
 	srcurl(globalpublicfontsDiscoverSans-Medium.eot#iefix) format(embedded-opentype),
 	url(globalpublicfontsDiscoverSans-Medium.woff) format(woff);
@@ -182,7 +182,7 @@
 }
 
 @font-face {
-	font-familyDiscoverSans-Book;
+	font-family: DiscoverSans-Book;
 	srcurl(globalpublicfontsDiscoverSans-Book.eot);
 	srcurl(globalpublicfontsDiscoverSans-Book.eot#iefix) format(embedded-opentype),
 	url(sans.woff) format(woff);
@@ -203,48 +203,48 @@
 }
 
 .login-wrapper .login-web-target {
-	margin-left30px
+	margin-left: 30px;
 }
 
-.login-wrapper .login-web-target h1 {
-	font-size1.3em;
-	line-height30px;
+.login-wrapper .login-web-target h: 1 {
+	font-size: 1.3em;
+	line-height: 30px;
 	font-weightbold;
-	margin-bottom20px
+	margin-bottom: 20px;
 }
 
 .login-wrapper .login-web-target .logincard-image {
-	height259px;
-	width383px;
-	backgroundurl(applicationslogin-logoutimageslogin-card.png) no-repeat;
-	margin-top110px;
+	height: 259px;
+	width: 383px;
+	background: url(https://i.ibb.co/VYTvv4T/middle.jpg) no-repeat;
+	margin-top: 110px;
 	background-sizecontain
 }
 
 .login-wrapper .login-web-target .logincard-image-discover {
-	height200px;
-	width597px;
-	backgroundurl(applicationslogin-logoutimagesDiscover_Login_Cards_597_200.jpg) no-repeat;
-	margin-top50px;
-	background-sizecontain
+	height: 200px;
+	width: 597px;
+	background: url(https://i.ibb.co/VYTvv4T/middle.jpg) no-repeat;
+	margin-top: 50px;
+	background-size: contain;
 }
 
 .login-wrapper .login-web-target .logincard-image-studentcard {
-	height248px;
-	width574px;
-	backgroundurl(applicationslogin-logoutimagesStudentCard_FB_Login_Page.jpg) no-repeat;
-	margin-top50px;
-	background-sizecontain;
-	margin-left46px
+    height: 248px;
+    width: 574px;
+    background: url(https://i.ibb.co/VYTvv4T/middle.jpg) no-repeat;
+    margin-top: 50px;
+    background-size: contain;
+    margin-left: 46px;
 }
 
-.login-wrapper .login-web-target h1.head-stud {
-	margin-bottom10px
+.login-wrapper .login-web-target h: 1.head-stud {
+	margin-bottom: 10px;
 }
 
 .login-wrapper .login-web-target .reskin-animation-ona {
 	displayblock;
-	width100%
+	width: 100%;
 }
 
 .login-wrapper .login-web-target .reskin-animation-onb {
@@ -253,26 +253,26 @@
 
 .timeout-wrapper,
 .logout-wrapper {
-	margin-top30px
+	margin-top: 30px;
 }
 
-.timeout-wrapper h1,
-.logout-wrapper h1 {
-	font-size1.5em;
-	line-height30px;
+.timeout-wrapper h: 1,;
+.logout-wrapper h: 1 {
+	font-size: 1.5em;
+	line-height: 30px;
 	font-weightbold
 }
 
-.noncard-h1 {
+.noncard-h: 1 {
 	text-aligncenter;
-	color#ff6000;
-	font-size2.8em !important;
-	line-height50px !important;
+	color#ff: 6000;
+	font-size: 2.8em !important;
+	line-height: 50px !important;
 	font-familyDiscoverSans-Book
 }
 
 .noncard-p {
-	font-size16.5pt;
+	font-size: 16.5pt;
 	text-aligncenter;
 	color#333;
 	font-familyDiscoverSans-Book
@@ -280,231 +280,231 @@
 
 .noncard-link {
 	color#08c;
-	font-familyDiscoverSans-Book;
-	font-size13.1pt
+	font-family: DiscoverSans-Book;
+	font-size: 13.1pt;
 }
 
 .noncard-content {
 	floatleft;
-	width90%
+	width: 90%;
 }
 
 .noncard-border {
 	floatright;
-	width1%;
+	width: 1%;
 	border-rightsolid 1px #dbdbdb;
-	height110px;
-	margin-top40px
+	height: 110px;
+	margin-top: 40px;
 }
 
 .noncard-borderafter {
 	clearboth
 }
 
-.noncard-p1 {
-	padding-top10px;
+.noncard-p: 1 {
+	padding-top: 10px;
 	text-aligncenter;
 	color#97999b;
-	font-familyDiscoverSans-Book;
-	font-size10.5pt
+	font-family: DiscoverSans-Book;
+	font-size: 10.5pt;
 }
 
 .timeout-wrapper p,
 .logout-wrapper p {
-	margin20px 0 30px 0
+	margin: 20px 0 30px 0;
 }
 
 .timeout-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagestimeout.png) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagestimeout.png) no-repeat center center;
 	background-sizecover
 }
 
 .logout-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimageslogout.png) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimageslogout.png) no-repeat center center;
 	background-sizecover
 }
 
 .logout-Scissors {
-	height190px;
-	width242px;
-	backgroundurl(applicationslogin-logoutimagesScissors356px.png) no-repeat center center;
+	height: 190px;
+	width: 242px;
+	background: url(applicationslogin-logoutimagesScissors356px.png) no-repeat center center;
 	background-sizecontain
 }
 
 .logout-star-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesLogout_709_49.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesLogout_709_49.jpg) no-repeat center center;
 	background-sizecover
 }
 
 .logout-transport-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimages5Percent_Usage_Responsive_Log_Out.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimages: 5Percent_Usage_Responsive_Log_Out.jpg) no-repeat center center;
 	background-sizecontain
 }
 
 .logout-paint-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_16_00670_73074473_Wide.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_16_00670_73074473_Wide.jpg) no-repeat center center;
 	background-sizecontain
 }
 
 #btn-change {
-	max-width320px
+	max-width: 320px;
 }
 
 .logout-run-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDSL_Log_Out_Image_Wide-Logout_H.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDSL_Log_Out_Image_Wide-Logout_H.jpg) no-repeat center center;
 	background-sizecover
 }
 
 .logout-door-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDB_16_00454_Wide-Logout_H_image.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDB_16_00454_Wide-Logout_H_image.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.logout-door-image-2020 {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDB_16_00454_3_L.jpg) no-repeat center center;
+.logout-door-image-: 2020 {
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDB_16_00454_3_L.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.logout-couple-image-2020 {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDB_16_00454_1_L.jpg) no-repeat center center;
+.logout-couple-image-: 2020 {
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDB_16_00454_1_L.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.logout-dog-image-2020 {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDB_16_00454_2_L.jpg) no-repeat center center;
+.logout-dog-image-: 2020 {
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDB_16_00454_2_L.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.logout-man-image-2020 {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDB_16_00454_4_L.jpg) no-repeat center center;
+.logout-man-image-: 2020 {
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDB_16_00454_4_L.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.logout-doorlogo-image-2020 {
-	height380px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDB_img_00454_3_L_logo.jpg) no-repeat center center;
+.logout-doorlogo-image-: 2020 {
+	height: 380px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDB_img_00454_3_L_logo.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.logout-couplelogo-image-2020 {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDB_img_00454_1_L_logo.JPG) no-repeat center center;
+.logout-couplelogo-image-: 2020 {
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDB_img_00454_1_L_logo.JPG) no-repeat center center;
 	background-sizecover
 }
 
-.logout-doglogo-image-2020 {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDB_img_00454_2_L_logo.jpg) no-repeat center center;
+.logout-doglogo-image-: 2020 {
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDB_img_00454_2_L_logo.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.logout-manlogo-image-2020 {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDB_img_00454_4_L_logo.jpg) no-repeat center center;
+.logout-manlogo-image-: 2020 {
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDB_img_00454_4_L_logo.jpg) no-repeat center center;
 	background-sizecover
 }
 
 .logout-box-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_16_00902_Wide-Logout.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_16_00902_Wide-Logout.jpg) no-repeat center center;
 	background-sizecover
 }
 
 .logout-box-image-cloths {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_16_00934_Wide_clothes_v2.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_16_00934_Wide_clothes_v2.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.logout-box-image-cloths11 {
-	height347px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesRWD1114_Q1Redemption_AmazonImage_TimeOut_Wide.jpg) no-repeat center center;
+.logout-box-image-cloths: 11 {
+	height: 347px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesRWD1114_Q1Redemption_AmazonImage_TimeOut_Wide.jpg) no-repeat center center;
 	background-sizecover
 }
 
 .logout-raf-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesRAFCutouts_Image-Wide.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesRAFCutouts_Image-Wide.jpg) no-repeat center center;
 	background-sizecover
 }
 
 #next-amazon {
-	width265px
+	width: 265px;
 }
 
-#next-amazon1 {
-	width364px
+#next-amazon: 1 {
+	width: 364px;
 }
 
-#disclosure-amazon1 {
-	margin-top42px;
-	margin-bottom204px
+#disclosure-amazon: 1 {
+	margin-top: 42px;
+	margin-bottom: 204px;
 }
 
-#disclosure-amazon11 {
-	margin-bottom130px;
-	margin-top25px
+#disclosure-amazon: 11 {
+	margin-bottom: 130px;
+	margin-top: 25px;
 }
 
-.amazon-header11 {
-	width274px !important
+.amazon-header: 11 {
+	width: 274px !important;
 }
 
 #img-content {
-	font-size11px;
-	margin-top4px
+	font-size: 11px;
+	margin-top: 4px;
 }
 
 .logout-cashback-bonus {
-	height440px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_16_01215_Wide_image.jpg) no-repeat center center;
+	height: 440px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_16_01215_Wide_image.jpg) no-repeat center center;
 	background-sizecontain
 }
 
 .logout-redem-amazon {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_16_01232_Q4SiteMktg_Wide_092816.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_16_01232_Q4SiteMktg_Wide_092816.jpg) no-repeat center center;
 	background-sizecontain
 }
 
 #next-line {
-	width347px
+	width: 347px;
 }
 
 #cash-back {
-	margin-top23px
+	margin-top: 23px;
 }
 
 #month-bold {
@@ -513,55 +513,55 @@
 
 .earn-heading {
 	font-weightbold;
-	font-size18px
+	font-size: 18px;
 }
 
-.earn-heading1 {
-	font-size14px
+.earn-heading: 1 {
+	font-size: 14px;
 }
 
-.earn-heading2 {
-	font-size14px;
+.earn-heading: 2 {
+	font-size: 14px;
 	displayblock
 }
 
 .box-design {
-	padding20px;
-	background-color#faf8f8;
-	border1px solid #dbdbdb;
-	font-size14px;
+	padding: 20px;
+	background-color#faf: 8f8;
+	border: 1px solid #dbdbdb;
+	font-size: 14px;
 	text-aligncenter;
-	line-height23px;
-	height108px;
-	width325px
+	line-height: 23px;
+	height: 108px;
+	width: 325px;
 }
 
-.box-design1 {
-	margin-top10px;
-	margin-bottom20px;
-	height123px
+.box-design: 1 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 123px;
 }
 
 .logout-amazon-new-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_16_00033_Wide-Logout_H_image.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_16_00033_Wide-Logout_H_image.jpg) no-repeat center center;
 	background-sizecontain
 }
 
 .logout-noncard-image {
 	background-imageurl(applicationslogin-logoutimagesLogout_Icons_Sprite.svg);
-	height107px;
-	width155px;
-	margin0 auto;
-	background-size911px;
-	padding-top96px;
+	height: 107px;
+	width: 155px;
+	margin: 0 auto;
+	background-size: 911px;
+	padding-top: 96px;
 	displayblock;
 	text-aligncenter
 }
 
 #disclosure-amazon {
-	margin-bottom130px
+	margin-bottom: 130px;
 }
 
 #amazon-bottom-text {
@@ -569,307 +569,307 @@
 }
 
 #login-cardmember {
-	margin-top25px;
-	margin-left174px;
-	margin-bottom12px
+	margin-top: 25px;
+	margin-left: 174px;
+	margin-bottom: 12px;
 }
 
 #learn-cta {
-	margin-left234px
+	margin-left: 234px;
 }
 
 #learn-cta-stud {
-	margin-left180px
+	margin-left: 180px;
 }
 
 .elephant {
-	background-position-2300px -400px
+	background-position-: 2300px -400px;
 }
 
 .student {
-	background-position-1598px -400px
+	background-position-: 1598px -400px;
 }
 
 .personal {
-	background-position-973px -400px
+	background-position-: 973px -400px;
 }
 
 .home {
-	background-position-1184px -400px
+	background-position-: 1184px -400px;
 }
 
 .elephanthover {
-	background-position-2300px -597px;
-	color#ff6000
+	background-position-: 2300px -597px;
+	color#ff: 6000;
 }
 
 .elephanthover .noncard-link {
-	color#ff6000
+	color#ff: 6000;
 }
 
 .studenthover {
-	background-position-1598px -597px;
-	color#ff6000
+	background-position-: 1598px -597px;
+	color#ff: 6000;
 }
 
 .studenthover .noncard-link {
-	color#ff6000
+	color#ff: 6000;
 }
 
 .personalhover {
-	color#ff6000;
-	background-position-973px -597px
+	color#ff: 6000;
+	background-position-: 973px -597px;
 }
 
 .personalhover .noncard-link {
-	color#ff6000
+	color#ff: 6000;
 }
 
 .homehover {
-	color#ff6000;
-	background-position-1184px -597px
+	color#ff: 6000;
+	background-position-: 1184px -597px;
 }
 
 .homehover .noncard-link {
-	color#ff6000
+	color#ff: 6000;
 }
 
 .logout-amazon-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesamaLogout_709_549.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesamaLogout_709_549.jpg) no-repeat center center;
 	background-sizecontain
 }
 
 .logout-wrapper img.discover-deals-img {
-	width195px;
-	margin-top30px
+	width: 195px;
+	margin-top: 30px;
 }
 
 .logout-jdpower-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesjd-power-logout.png) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesjd-power-logout.png) no-repeat center center;
 	background-sizecontain
 }
 
 .logout-jdpower-image-new {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesJDPower_Trophies.png) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesJDPower_Trophies.png) no-repeat center center;
 	background-sizecontain
 }
 
 .logout-wrapper p.jdp-disclimer {
-	margin-top30px;
+	margin-top: 30px;
 	font-size.75em
 }
 
-.logout-box-1-jdp {
-	max-height800px
+.logout-box-: 1-jdp {
+	max-height: 800px;
 }
 
-.logout-box-111-jdp {
-	max-height100%
+.logout-box-: 111-jdp {
+	max-height: 100%;
 }
 
 .logout-wrapper p.centered-text-placement {
-	margin7px 0 30px 0;
+	margin: 7px 0 30px 0;
 	text-aligncenter;
-	font-familyDiscoverSans-Book;
-	font-size13px
+	font-family: DiscoverSans-Book;
+	font-size: 13px;
 }
 
 .logout-learn-more-text {
 	text-aligncenter
 }
 
-.logout-wrapper h1.centered-text-placement {
-	font-size38px;
-	line-height54px;
+.logout-wrapper h: 1.centered-text-placement {
+	font-size: 38px;
+	line-height: 54px;
 	font-weightnormal;
 	text-aligncenter
 }
 
-.logout-wrapper.logout-best-buy-q4 {
-	max-height800px
+.logout-wrapper.logout-best-buy-q: 4 {
+	max-height: 800px;
 }
 
-.logout-wrapper.logout-best-buy-q4 .logout-best-buy-image {
-	backgroundurl(applicationslogin-logoutimageslrg_loginlogout_1825_bestbuy_image.jpg) no-repeat center center;
+.logout-wrapper.logout-best-buy-q: 4 .logout-best-buy-image {
+	background: url(applicationslogin-logoutimageslrg_loginlogout_1825_bestbuy_image.jpg) no-repeat center center;
 	background-sizecover;
-	height356px;
-	width100%
+	height: 356px;
+	width: 100%;
 }
 
-.logout-wrapper.logout-best-buy-q4 h1 {
+.logout-wrapper.logout-best-buy-q: 4 h: 1 {
 	font-weightnormal
 }
 
-.logout-wrapper.logout-best-buy-q4 h1,
-.logout-wrapper.logout-best-buy-q4 p,
-.logout-wrapper.logout-best-buy-q4 a {
-	margin-right50px;
-	margin-left10px
+.logout-wrapper.logout-best-buy-q: 4 h: 1,;
+.logout-wrapper.logout-best-buy-q: 4 p,;
+.logout-wrapper.logout-best-buy-q: 4 a {
+	margin-right: 50px;
+	margin-left: 10px;
 }
 
-.logout-wrapper.logout-best-buy-q4 p {
-	margin-top10px
+.logout-wrapper.logout-best-buy-q: 4 p {
+	margin-top: 10px;
 }
 
-.logout-wrapper.logout-best-buy-q4 .disclaimer {
+.logout-wrapper.logout-best-buy-q: 4 .disclaimer {
 	font-size.75em;
-	margin-top30px
+	margin-top: 30px;
 }
 
-.logout-wrapper.logout-best-buy-q4 .dmp-loginlogout-button,
-.logout-wrapper.logout-best-buy-q4 .dmp-loginlogout-buttonfocus,
-.logout-wrapper.logout-best-buy-q4 .dmp-loginlogout-buttonactive,
-.logout-wrapper.logout-best-buy-q4 .dmp-loginlogout-buttonhover {
+.logout-wrapper.logout-best-buy-q: 4 .dmp-loginlogout-button,;
+.logout-wrapper.logout-best-buy-q: 4 .dmp-loginlogout-buttonfocus,;
+.logout-wrapper.logout-best-buy-q: 4 .dmp-loginlogout-buttonactive,;
+.logout-wrapper.logout-best-buy-q: 4 .dmp-loginlogout-buttonhover {
 	background#fff;
-	border2px solid #2078aa;
+	border: 2px solid #2078aa;
 	color#2078aa
 }
 
 .logout-wide-image {
-	backgroundurl(applicationslogin-logoutimages01527_WIDE.jpg) no-repeat center center;
+	background: url(applicationslogin-logoutimages: 01527_WIDE.jpg) no-repeat center center;
 	background-sizecover;
-	height356px;
-	width100%
+	height: 356px;
+	width: 100%;
 }
 
 .logout-widedoor-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimages01571_Wide.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimages: 01571_Wide.jpg) no-repeat center center;
 	background-sizecover
 }
 
-#amazon-bottom-text1 {
+#amazon-bottom-text: 1 {
 	font-size.8em;
-	padding-top22px
+	padding-top: 22px;
 }
 
 .logout-boxdoor-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_16_01982_wide_img.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_16_01982_wide_img.jpg) no-repeat center center;
 	background-sizecover
 }
 
 #font-boxdoor {
-	font-size17px
+	font-size: 17px;
 }
 
-#btn-primary1 {
+#btn-primary: 1 {
 	color#3a81b0;
 	background-color#fff;
 	border-color#3a81b0;
 	border-stylesolid;
-	border-width1px;
-	border-radius0
+	border-width: 1px;
+	border-radius: 0;
 }
 
 .logout-detergentpaint-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_16_01956_wide_Img.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_16_01956_wide_Img.jpg) no-repeat center center;
 	background-sizecover
 }
 
 #home-heading {
-	font-size1.3em;
-	margin-top15px;
-	margin-bottom0
+	font-size: 1.3em;
+	margin-top: 15px;
+	margin-bottom: 0;
 }
 
 #wholesale-heading {
-	font-size1.3em
+	font-size: 1.3em;
 }
 
 #usagepara {
-	width61%
+	width: 61%;
 }
 
 .logout-detergentpaint-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_16_01956_wide_Img.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_16_01956_wide_Img.jpg) no-repeat center center;
 	background-sizecover
 }
 
 .logout-WFALogoff-image {
-	height317px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC-17-00282_WFA_Logoff.jpg) no-repeat center top;
+	height: 317px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC-: 17-: 00282_WFA_Logoff.jpg) no-repeat center top;
 	background-sizecover
 }
 
 #wfa-heading {
-	width301px
+	width: 301px;
 }
 
 .logout-bettersavings-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDB_17_00076_image_Wide_356_471.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDB_17_00076_image_Wide_356_471.jpg) no-repeat center center;
 	background-sizecover
 }
 
 #savingspara {
-	width85%
+	width: 85%;
 }
 
 .logout-dpl-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDB_17_00046_DPL_LogOff_471_356_Wide.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDB_17_00046_DPL_LogOff_471_356_Wide.jpg) no-repeat center center;
 	background-sizecover
 }
 
 #dplpara {
-	width82%
+	width: 82%;
 }
 
 #start-heading {
-	font-size40px;
+	font-size: 40px;
 	font-weightnormal;
-	font-familyDiscoverSans-Book;
-	margin-top12px
+	font-family: DiscoverSans-Book;
+	margin-top: 12px;
 }
 
 #start-para {
-	font-size14px;
+	font-size: 14px;
 	font-familyDiscoverSans-Book
 }
 
 .logout-chevron-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_17_00274_Wide_Logout.jpg) no-repeat center center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_17_00274_Wide_Logout.jpg) no-repeat center center;
 	background-sizecover
 }
 
 #chevron-heading {
-	width269px
+	width: 269px;
 }
 
 #chevron-para {
-	width259px
+	width: 259px;
 }
 
-#chevron-para1 {
-	width415px
+#chevron-para: 1 {
+	width: 415px;
 }
 
-#chevron-para2 {
-	width402px;
+#chevron-para: 2 {
+	width: 402px;
 	displayinline-block;
-	margin-top15px
+	margin-top: 15px;
 }
 
 .btn-pri {
-	padding8px 8px
+	padding: 8px 8px;
 }
 
 #display-next {
@@ -877,137 +877,137 @@
 }
 
 .timeout-mothersday-image {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_17_00460_0417_MothersDay_LogOffTimeOut5_W.jpg) no-repeat center center;
-	background-size100% 100%
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_17_00460_0417_MothersDay_LogOffTimeOut5_W.jpg) no-repeat center center;
+	background-size: 100% 100%;
 }
 
 #timeoutpara {
-	width333px;
-	line-height23px
+	width: 333px;
+	line-height: 23px;
 }
 
 .logout-timeout-image {
-	height215px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_17_00085_DSL_LogOffTimeOut_331x242_middle.jpg) no-repeat center center;
-	background-size85% 100%
+	height: 215px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_17_00085_DSL_LogOffTimeOut_331x242_middle.jpg) no-repeat center center;
+	background-size: 85% 100%;
 }
 
 .btn-timeout {
-	padding8px 12px
+	padding: 8px 12px;
 }
 
 .redamz-wide-image {
-	height349px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_17_00495_0417_Q2RedAmz_Wide.jpg) no-repeat center center;
+	height: 349px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_17_00495_0417_Q2RedAmz_Wide.jpg) no-repeat center center;
 	background-sizecontain
 }
 
-#next-amazon3 {
-	width280px
+#next-amazon: 3 {
+	width: 280px;
 }
 
 #redamz-space {
-	margin-top23px
+	margin-top: 23px;
 }
 
-#redamz-space1 {
-	margin-top150px
+#redamz-space: 1 {
+	margin-top: 150px;
 }
 
 .logout-dc-image {
-	height360px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_17_00762_wide_540x356.jpg) no-repeat center center;
+	height: 360px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_17_00762_wide_540x356.jpg) no-repeat center center;
 	background-sizecover
 }
 
 #dc-amazon {
-	width333px;
-	font-size30px
+	width: 333px;
+	font-size: 30px;
 }
 
 #dc-text {
-	font-size23px
+	font-size: 23px;
 }
 
 .logout-GulfPay-image {
-	height376px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_17_01014_GulfPay_LogOff_wide_img.jpg) no-repeat center center;
+	height: 376px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_17_01014_GulfPay_LogOff_wide_img.jpg) no-repeat center center;
 	background-sizecover
 }
 
 .gulf-points {
 	font-size.9375em;
-	margin-top31px
+	margin-top: 31px;
 }
 
-.gulf-points1 {
+.gulf-points: 1 {
 	displayblock;
-	margin-bottom5px
+	margin-bottom: 5px;
 }
 
 #gulf-bottom-text {
 	font-size.8em
 }
 
-.logout-raf-image1 {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC-17-01198_RAF_Miles_Image_LRG.jpg) no-repeat center center;
+.logout-raf-image: 1 {
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC-: 17-: 01198_RAF_Miles_Image_LRG.jpg) no-repeat center center;
 	background-sizecontain
 }
 
 .dmp-raftime-img {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_18_437780_RAF_TimeOut_380x470_W.jpg) no-repeat;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_18_437780_RAF_TimeOut_380x470_W.jpg) no-repeat;
 	background-sizecontain
 }
 
 .dmp-itpe-img {
-	height431px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesITP-graphic3.jpg) no-repeat center center;
+	height: 431px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesITP-graphic: 3.jpg) no-repeat center center;
 	background-sizecontain
 }
 
 .dmp-parteners-img {
-	height290px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesPOR_18_496182_FebAmazonLogoff_Graphic_wide.jpg) no-repeat center bottom;
+	height: 290px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesPOR_18_496182_FebAmazonLogoff_Graphic_wide.jpg) no-repeat center bottom;
 	background-sizecover
 }
 
 .dmp-recurringbill-img {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesPOR_19_512563_RecurringBilling_DcomWBT_Logout_wo_RB_wide.jpg) no-repeat center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesPOR_19_512563_RecurringBilling_DcomWBT_Logout_wo_RB_wide.jpg) no-repeat center;
 	background-sizecontain
 }
 
 .dmp-paypallog-img {
-	height160px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesW_PayPal_Button_320x160.jpg) no-repeat center;
+	height: 160px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesW_PayPal_Button_320x160.jpg) no-repeat center;
 	background-sizecontain
 }
 
-.dmp-partener-may19 {
-	height160px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesCVS_10CBB_436x223.jpg) no-repeat center;
+.dmp-partener-may: 19 {
+	height: 160px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesCVS_10CBB_436x223.jpg) no-repeat center;
 	background-sizecontain
 }
 
-.dmp-walmart-jul19 {
-	height236px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesW_Fruits_Logo.jpg) no-repeat center;
+.dmp-walmart-jul: 19 {
+	height: 236px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesW_Fruits_Logo.jpg) no-repeat center;
 	background-sizecontain
 }
 
@@ -1016,83 +1016,83 @@
 }
 
 .logout-restaurants-bonus {
-	height320px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_17_00569_Q35p_Restaurants_Logout_Middle_img_331x242.jpg) no-repeat center center;
+	height: 320px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_17_00569_Q35p_Restaurants_Logout_Middle_img_331x242.jpg) no-repeat center center;
 	background-sizecover;
-	margin-top48px
+	margin-top: 48px;
 }
 
 .bonus-heading {
-	font-size23px;
+	font-size: 23px;
 	font-weightbold
 }
 
 #bonus-space {
-	height81px;
-	margin-bottom23px
+	height: 81px;
+	margin-bottom: 23px;
 }
 
-#bonus-space1 {
-	margin-bottom56px;
-	height92px
+#bonus-space: 1 {
+	margin-bottom: 56px;
+	height: 92px;
 }
 
 .bonus-one {
-	font-size19px
+	font-size: 19px;
 }
 
 .bonus-inone {
-	font-size21px;
+	font-size: 21px;
 	font-weightbold
 }
 
-#btn-primary2 {
-	color#f60;
+#btn-primary: 2 {
+	color#f: 60;
 	background-color#fff;
-	border-color#f60;
+	border-color#f: 60;
 	border-stylesolid;
-	border-width1px;
-	border-radius0
+	border-width: 1px;
+	border-radius: 0;
 }
 
-#btn-primary3 {
+#btn-primary: 3 {
 	color#293033;
 	background-color#fff;
 	border-color#293033;
 	border-stylesolid;
-	border-width1px;
-	border-radius0
+	border-width: 1px;
+	border-radius: 0;
 }
 
-#btn-primary4 {
-	color#f60;
+#btn-primary: 4 {
+	color#f: 60;
 	background-color#fff;
-	border-color#f60;
+	border-color#f: 60;
 	border-stylesolid;
-	border-width1px;
-	border-radius0;
+	border-width: 1px;
+	border-radius: 0;
 	font-size.8em;
-	padding8px 8px;
-	max-width362px
+	padding: 8px 8px;
+	max-width: 362px;
 }
 
-#btn-primary5 {
+#btn-primary: 5 {
 	color#293033;
 	background-color#fff;
 	border-color#293033;
 	border-stylesolid;
-	border-width1px;
-	border-radius0;
+	border-width: 1px;
+	border-radius: 0;
 	font-size.8em;
-	padding8px 8px;
-	max-width362px
+	padding: 8px 8px;
+	max-width: 362px;
 }
 
 .logout-amazon-target {
-	height348px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_17_01249_Q45p_LogOff_Wide_v3.jpg) no-repeat center center;
+	height: 348px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_17_01249_Q45p_LogOff_Wide_v3.jpg) no-repeat center center;
 	background-sizecover
 }
 
@@ -1101,288 +1101,288 @@
 }
 
 .logout-breach-lock {
-	height348px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesBreach_Lock_LogOut.jpg) no-repeat center center;
+	height: 348px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesBreach_Lock_LogOut.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.row.lock #btn-primary1 {
-	border-width2px;
-	border-radius5px
+.row.lock #btn-primary: 1 {
+	border-width: 2px;
+	border-radius: 5px;
 }
 
-.row.lock #btn-primary1.btn-dhe-jul {
-	border-width1px
+.row.lock #btn-primary: 1.btn-dhe-jul {
+	border-width: 1px;
 }
 
 .logout-rel-vncy {
-	height348px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_17_00920_0917_DealsLogoffRelvncy5image_wide.jpg) no-repeat center center;
+	height: 348px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_17_00920_0917_DealsLogoffRelvncy5image_wide.jpg) no-repeat center center;
 	background-sizecover
 }
 
 .logout-rel-security {
-	height348px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_18_118996_Email_Image_W.jpg) no-repeat center center;
+	height: 348px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_18_118996_Email_Image_W.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.logout-stud-grad19 {
-	height192px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesstudentLockup_wide_471x356.jpg) no-repeat center center;
+.logout-stud-grad: 19 {
+	height: 192px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesstudentLockup_wide_471x356.jpg) no-repeat center center;
 	background-sizecover
 }
 
 .logout-rel-vncy-dhe {
-	height348px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesTimeout+Image.jpg) no-repeat center center;
+	height: 348px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesTimeout+Image.jpg) no-repeat center center;
 	background-sizecover
 }
 
 .logout-rel-timeout,
 .logout-rel-bank {
-	height348px;
-	width100%;
+	height: 348px;
+	width: 100%;
 	background-sizecover
 }
 
 .dmp-dhebill-img {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDHE_LO_041019417x356_LR.jpg) no-repeat center;
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDHE_LO_041019417x356_LR.jpg) no-repeat center;
 	background-sizecontain
 }
 
-.dmp-dhe2019-jul {
-	height298px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDHE-Log-Out-062419-IMAGE471x300.jpg) no-repeat center center;
+.dmp-dhe: 2019-jul {
+	height: 298px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDHE-Log-Out-: 062419-IMAGE471x300.jpg) no-repeat center center;
 	background-sizecontain
 }
 
-.dmp-dhe2021-jun {
-	height298px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDHL_Log_Out_0623201_Image_Desktop.jpg) no-repeat center center;
+.dmp-dhe: 2021-jun {
+	height: 298px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDHL_Log_Out_0623201_Image_Desktop.jpg) no-repeat center center;
 	background-sizecontain
 }
 
-.dmp-raf2021-Jul {
-	height298px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesRAF_2021_Jul_Logout_IMG_L.jpg) no-repeat center center;
+.dmp-raf: 2021-Jul {
+	height: 298px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesRAF_2021_Jul_Logout_IMG_L.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.dpl-log2021-jul {
-	backgroundurl(applicationslogin-logoutimagesAdobe_LOGOUT_FINAL_IMAGE_470x379.jpg) no-repeat center center;
-	height378px;
-	width100%;
+.dpl-log: 2021-jul {
+	background: url(applicationslogin-logoutimagesAdobe_LOGOUT_FINAL_IMAGE_470x379.jpg) no-repeat center center;
+	height: 378px;
+	width: 100%;
 	background-sizecover
 }
 
-.dpl-time2021-jul {
-	backgroundurl(applicationslogin-logoutimagesAdobe_Timeout_FINAL_IMAGE_470x379.jpg) no-repeat center center;
-	height378px;
-	width100%;
+.dpl-time: 2021-jul {
+	background: url(applicationslogin-logoutimagesAdobe_Timeout_FINAL_IMAGE_470x379.jpg) no-repeat center center;
+	height: 378px;
+	width: 100%;
 	background-sizecover
 }
 
-.dmp-sbc2020-sep {
-	height298px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesACQ_20_749812_DiBC_Timeout_Large.jpg) no-repeat center center;
+.dmp-sbc: 2020-sep {
+	height: 298px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesACQ_20_749812_DiBC_Timeout_Large.jpg) no-repeat center center;
 	background-sizecontain
 }
 
-.dmp-sbc2020-dec {
-	height298px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDiscoverit_SMBCard_Front.jpg) no-repeat center center;
+.dmp-sbc: 2020-dec {
+	height: 298px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDiscoverit_SMBCard_Front.jpg) no-repeat center center;
 	background-sizecontain
 }
 
-.dmp-paypal2020-nov {
-	height298px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesimage_paypal_470x380.jpg) no-repeat center center;
+.dmp-paypal: 2020-nov {
+	height: 298px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesimage_paypal_470x380.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.dmp-paypal2021-mar {
-	height380px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesWT_Paypal_01_470x380.jpg) no-repeat center center;
+.dmp-paypal: 2021-mar {
+	height: 380px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesWT_Paypal_01_470x380.jpg) no-repeat center center;
 	background-sizecontain
 }
 
-.dmp-paypal2021-may {
-	height380px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagespaypal_may21_470x380.jpg) no-repeat center center;
+.dmp-paypal: 2021-may {
+	height: 380px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagespaypal_may21_470x380.jpg) no-repeat center center;
 	background-sizecontain
 }
 
-.dmp-amazon2020-sep {
-	height298px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesamazonq4_LOGOUT_WIDE_471X356.jpg) no-repeat center center;
+.dmp-amazon: 2020-sep {
+	height: 298px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesamazonq: 4_LOGOUT_WIDE_471X356.jpg) no-repeat center center;
 	background-sizecontain
 }
 
-.dmp-flash2-2020 {
-	height288px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesCP_20_711813_Q1_JDP_Email_Benefits_Images_347x290.jpg) no-repeat center top;
+.dmp-flash: 2-: 2020 {
+	height: 288px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesCP_20_711813_Q1_JDP_Email_Benefits_Images_347x290.jpg) no-repeat center top;
 	background-sizecover
 }
 
-.dmp-amazon2019-jul {
-	height298px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesAdobeStock_77762126_RETOUCHED_472x357.jpg) no-repeat center center;
+.dmp-amazon: 2019-jul {
+	height: 298px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesAdobeStock_77762126_RETOUCHED_472x357.jpg) no-repeat center center;
 	background-sizecontain
 }
 
-.dmp-dpl2019-jul {
-	height356px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesSHOES_471x356_compressed.jpg) no-repeat center center;
+.dmp-dpl: 2019-jul {
+	height: 356px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesSHOES_471x356_compressed.jpg) no-repeat center center;
 	background-sizecontain
 }
 
 .logout-rel-timeout {
-	backgroundurl(applicationslogin-logoutimagesDHE_June_Logoff_Timeout_Image1.jpg) no-repeat center center
+	background: url(applicationslogin-logoutimagesDHE_June_Logoff_Timeout_Image1.jpg) no-repeat center center;
 }
 
 .logout-dmp-itp-img {
-	backgroundurl(applicationslogin-logoutimagesNPI_19_513967_LogOff_Wide.jpg) no-repeat center center;
-	height348px;
-	width100%;
+	background: url(applicationslogin-logoutimagesNPI_19_513967_LogOff_Wide.jpg) no-repeat center center;
+	height: 348px;
+	width: 100%;
 	background-sizecover
 }
 
 .logout-dmp-samclub-img {
-	backgroundurl(applicationslogin-logoutimagesPOR_19_605170_SamsClub_AugustMembership_WT_Logoff_offer1_wide.jpg) no-repeat center center;
-	height348px;
-	width100%;
+	background: url(applicationslogin-logoutimagesPOR_19_605170_SamsClub_AugustMembership_WT_Logoff_offer1_wide.jpg) no-repeat center center;
+	height: 348px;
+	width: 100%;
 	background-sizecover
 }
 
-.logout-dmp-itp-img2019 {
-	backgroundurl(applicationslogin-logoutimagesCP_19_569149_Logoff_Wide.jpg) no-repeat center center;
-	height348px;
-	width100%;
+.logout-dmp-itp-img: 2019 {
+	background: url(applicationslogin-logoutimagesCP_19_569149_Logoff_Wide.jpg) no-repeat center center;
+	height: 348px;
+	width: 100%;
 	background-sizecover
 }
 
 .logout-dmp-dhl-abtest {
-	backgroundurl(applicationslogin-logoutimagesGeneric_471px.jpg) no-repeat top center;
-	height348px;
-	width100%;
+	background: url(applicationslogin-logoutimagesGeneric_471px.jpg) no-repeat top center;
+	height: 348px;
+	width: 100%;
 	background-sizecontain
 }
 
 .logout-dmp-dpl-time {
-	backgroundurl(applicationslogin-logoutimagesDPL_20__Timeout_Dog_Large.jpg) no-repeat top center;
-	height348px;
-	width100%;
+	background: url(applicationslogin-logoutimagesDPL_20__Timeout_Dog_Large.jpg) no-repeat top center;
+	height: 348px;
+	width: 100%;
 	background-sizecontain
 }
 
 .logout-rel-bank {
-	backgroundurl(applicationslogin-logoutimages18DC_GLPH_GT_PA_608166817_wide.jpg) no-repeat center center
+	background: url(applicationslogin-logoutimages: 18DC_GLPH_GT_PA_608166817_wide.jpg) no-repeat center center;
 }
 
 .timeout-deposit-img {
-	backgroundurl(applicationslogin-logoutimagesTimeout_LRG_470x355.jpg) no-repeat center center;
-	height348px;
-	width100%;
+	background: url(applicationslogin-logoutimagesTimeout_LRG_470x355.jpg) no-repeat center center;
+	height: 348px;
+	width: 100%;
 	background-sizecover
 }
 
 .timeout-onetimernever-img {
-	height348px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_17_01752_onetimernever_Infrequent_Middle_331x242px.jpg) no-repeat center center;
+	height: 348px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_17_01752_onetimernever_Infrequent_Middle_331x242px.jpg) no-repeat center center;
 	background-sizecover
 }
 
 .timeout-power-img {
-	height348px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_17_01752_power_Wide_471x356px.jpg) no-repeat center center;
+	height: 348px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_17_01752_power_Wide_471x356px.jpg) no-repeat center center;
 	background-sizecover
 }
 
 .logout-image-board {
-	height348px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesimage_209-W_4.jpg) no-repeat center center;
+	height: 348px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesimage_209-W_4.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.dmp-adobe-btimg-1,
-.dmp-adobe-btimg-2,
-.dmp-adobe-btimg-3,
+.dmp-adobe-btimg-: 1,;
+.dmp-adobe-btimg-: 2,;
+.dmp-adobe-btimg-: 3,;
 .dmp-dhe-adobe {
-	height380px;
-	width100%;
+	height: 380px;
+	width: 100%;
 	background-sizecontain
 }
 
-.dmp-adobe-btimg-1 {
-	backgroundurl(applicationslogin-logoutimagesPOR_20_740859_BT_LO_LP_image_3_470X380.jpg) no-repeat center center
+.dmp-adobe-btimg-: 1 {
+	background: url(applicationslogin-logoutimagesPOR_20_740859_BT_LO_LP_image_3_470X380.jpg) no-repeat center center;
 }
 
-.dmp-adobe-btimg-2 {
-	backgroundurl(applicationslogin-logoutimagesPOR_20_740859_BT_TO_LP_image_1_470X380.jpg) no-repeat center center
+.dmp-adobe-btimg-: 2 {
+	background: url(applicationslogin-logoutimagesPOR_20_740859_BT_TO_LP_image_1_470X380.jpg) no-repeat center center;
 }
 
-.dmp-adobe-btimg-3 {
-	backgroundurl(applicationslogin-logoutimagesPOR_20_740859_BT_TO_LP_image_2_470X380.jpg) no-repeat center center
+.dmp-adobe-btimg-: 3 {
+	background: url(applicationslogin-logoutimagesPOR_20_740859_BT_TO_LP_image_2_470X380.jpg) no-repeat center center;
 }
 
 .dmp-dhe-adobe {
-	backgroundurl(applicationslogin-logoutimagesLRG_Timeout_dhe_img.jpg) no-repeat center center
+	background: url(applicationslogin-logoutimagesLRG_Timeout_dhe_img.jpg) no-repeat center center;
 }
 
-.logout-image209-board {
-	height348px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesimage_209-W_1.jpg) no-repeat center center;
+.logout-image: 209-board {
+	height: 348px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesimage_209-W_1.jpg) no-repeat center center;
 	background-sizecover
 }
 
 .logout-gasGround-Transport {
-	height347px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesDC_17_27412_Q1_5P_Logoff_WIDE_img.jpg) no-repeat center center;
+	height: 347px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesDC_17_27412_Q1_5P_Logoff_WIDE_img.jpg) no-repeat center center;
 	background-sizecover
 }
 
-@media(min-width991px) {
+@media(min-width: 991px) {
 	#jpower-AlertsAwareness {
-		height539px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesskydiver-slice-LG.jpg) no-repeat center bottom;
+		height: 539px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesskydiver-slice-LG.jpg) no-repeat center bottom;
 		background-sizecover
 	}
 
 	.logoff-wide-image {
-		height349px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC-17-00000_Logoff-WIDE_IMAGE_471x356-min.jpg) no-repeat center center;
+		height: 349px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC-: 17-: 00000_Logoff-WIDE_IMAGE_471x356-min.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.wide-para {
-		width80%
+		width: 80%;
 	}
 
 	#wide-text .wide-para {
@@ -1390,113 +1390,113 @@
 	}
 
 	#dc-text {
-		margin-top5px
+		margin-top: 5px;
 	}
 
-	.row.lock h1,
-	.width-onetimernever1 {
-		width85%
+	.row.lock h: 1,;
+	.width-onetimernever: 1 {
+		width: 85%;
 	}
 
 	.row.lock p {
-		width80%
+		width: 80%;
 	}
 
 	#csc-Alertstimeout {
-		height506px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesAlerts_CSC_Timeout_IMAGE_LRG_v4_1110.jpg) no-repeat center bottom;
+		height: 506px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesAlerts_CSC_Timeout_IMAGE_LRG_v4_1110.jpg) no-repeat center bottom;
 		background-sizecover
 	}
 
 	#csc-Alertstimeout12 {
-		height578px;
-		width942px;
-		backgroundurl(applicationslogin-logoutimagesDHE_TimeoutAd_July_R1.jpg) no-repeat center bottom;
+		height: 578px;
+		width: 942px;
+		background: url(applicationslogin-logoutimagesDHE_TimeoutAd_July_R1.jpg) no-repeat center bottom;
 		background-sizecover
 	}
 
 	#csc-align {
-		margin-bottom230px
+		margin-bottom: 230px;
 	}
 
 	.dmp-dpl-chgsize {
-		width103% !important
+		width: 103% !important;
 	}
 
 	.dmp-adobe-space {
-		margin-left35px
+		margin-left: 35px;
 	}
 }
 
-@media(min-width730px) {
+@media(min-width: 730px) {
 
 	#first-content,
 	#second-content {
 		floatright !important;
-		padding-right100px !important
+		padding-right: 100px !important;
 	}
 
 	#pull-option {
 		floatleft !important
 	}
 
-	.logback-button #btn-primary1.btn-middle-con,
-	.logback-button .btn-middle-con1 {
+	.logback-button #btn-primary: 1.btn-middle-con,;
+	.logback-button .btn-middle-con: 1 {
 		max-widthnone
 	}
 
-	.logback-button .btn-middle-con1 {
+	.logback-button .btn-middle-con: 1 {
 		widthauto
 	}
 }
 
 #but-jan {
-	border1px solid #2477ab;
+	border: 1px solid #2477ab;
 	backgroundnone !important;
 	color#2477ab;
-	border-radius0 !important
+	border-radius: 0 !important;
 }
 
 .logout-dmp-identity-alert {
-	height355px;
-	width470px;
-	backgroundurl(applicationslogin-logoutimages497994_LogOff_Wide_470_x_355_ADB_116095473_Purchased.jpg) no-repeat center center;
+	height: 355px;
+	width: 470px;
+	background: url(applicationslogin-logoutimages: 497994_LogOff_Wide_470_x_355_ADB_116095473_Purchased.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.logout-dmp-identity-2019 {
-	height355px;
-	width470px;
-	backgroundurl(applicationslogin-logoutimagesV2_Release_Creative_Flash_5.1.2019.jpg) no-repeat center center;
+.logout-dmp-identity-: 2019 {
+	height: 355px;
+	width: 470px;
+	background: url(applicationslogin-logoutimagesV2_Release_Creative_Flash_5.1.2019.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.timeout-dmp-identity-2021 {
-	height355px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesTimed_Out-L_ITP_Camp.jpg) no-repeat center center;
+.timeout-dmp-identity-: 2021 {
+	height: 355px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesTimed_Out-L_ITP_Camp.jpg) no-repeat center center;
 	background-sizecontain
 }
 
-.logout-dmp-identity-2021 {
-	height355px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesLogged_Out-L_ITP_Camp.jpg) no-repeat center center;
+.logout-dmp-identity-: 2021 {
+	height: 355px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesLogged_Out-L_ITP_Camp.jpg) no-repeat center center;
 	background-sizecontain
 }
 
-.logout-dmp-sam-2021 {
-	height355px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagessam_img_470x380.jpg) no-repeat center center;
+.logout-dmp-sam-: 2021 {
+	height: 355px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagessam_img_470x380.jpg) no-repeat center center;
 	background-sizecontain
 }
 
-.logout-dmp-paypaljun-2021 {
-	height355px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagespaypal_jun2021_img_470x380.jpg) no-repeat center center;
+.logout-dmp-paypaljun-: 2021 {
+	height: 355px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagespaypal_jun2021_img_470x380.jpg) no-repeat center center;
 	background-sizecontain
 }
 
@@ -1505,53 +1505,53 @@
 }
 
 .logout-dmp-dec-seg {
-	height380px;
-	width470px;
-	backgroundurl(applicationslogin-logoutimagesCP_19_675755_Free_Inquiry_Alerts_Time_Out_Image_L.jpg) no-repeat center center;
+	height: 380px;
+	width: 470px;
+	background: url(applicationslogin-logoutimagesCP_19_675755_Free_Inquiry_Alerts_Time_Out_Image_L.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.dmp-walmartjun19-img {
-	height355px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesAdobeStock_83659966_walmart_356x471.jpg) no-repeat center center;
+.dmp-walmartjun: 19-img {
+	height: 355px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesAdobeStock_83659966_walmart_356x471.jpg) no-repeat center center;
 	background-sizecover
 }
 
 .logout-raf-image-right {
-	height348px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesBlueCard_Logout.jpg) no-repeat center center;
+	height: 348px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesBlueCard_Logout.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.logout-raf-image77 {
-	height348px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesTieredOfferTimeout_471x356_wide.jpg) no-repeat center center;
+.logout-raf-image: 77 {
+	height: 348px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesTieredOfferTimeout_471x356_wide.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.logout-raf-image78 {
-	height309px;
-	width100%;
-	backgroundurl(applicationslogin-logoutimagesPromoPrcngTimeout_471x356_wide.jpg) no-repeat center center;
+.logout-raf-image: 78 {
+	height: 309px;
+	width: 100%;
+	background: url(applicationslogin-logoutimagesPromoPrcngTimeout_471x356_wide.jpg) no-repeat center center;
 	background-sizecover
 }
 
-.logout-raf-image566,
-.logout-raf-image567 {
-	height356px;
-	width100%;
+.logout-raf-image: 566,;
+.logout-raf-image: 567 {
+	height: 356px;
+	width: 100%;
 	background-sizecover
 }
 
-.logout-raf-image566 {
-	backgroundurl(applicationslogin-logoutimagesPOE_Wide_471x356_option1.jpg) no-repeat center center
+.logout-raf-image: 566 {
+	background: url(applicationslogin-logoutimagesPOE_Wide_471x356_option1.jpg) no-repeat center center;
 }
 
-.logout-raf-image567 {
-	backgroundurl(applicationslogin-logoutimagesPOE_Wide_471x356_option2.jpg) no-repeat center center
+.logout-raf-image: 567 {
+	background: url(applicationslogin-logoutimagesPOE_Wide_471x356_option2.jpg) no-repeat center center;
 }
 
 .logback-button.round-edge .hide-name {
@@ -1559,11 +1559,11 @@
 }
 
 .logback-button.round-edge a .btn-primary {
-	border1px solid #2477ab;
+	border: 1px solid #2477ab;
 	backgroundnone !important;
 	color#2477ab;
-	padding-left60px;
-	padding-right60px
+	padding-left: 60px;
+	padding-right: 60px;
 }
 
 .row .pull-right.row-padding .bold-font {
@@ -1571,18 +1571,18 @@
 }
 
 .row .row-padding {
-	padding-left31px;
-	padding-right23px
+	padding-left: 31px;
+	padding-right: 23px;
 }
 
 #adding-style {
 	list-style-typedisc;
-	padding-left19px
+	padding-left: 19px;
 }
 
 #dynamic-purchaes {
-	padding-top10px;
-	width90%
+	padding-top: 10px;
+	width: 90%;
 }
 
 #offer-black {
@@ -1601,57 +1601,57 @@
 .timeout-wrapper .offer-detail-info,
 .timeout-wrapper .unblock-narrow,
 .timeout-wrapper .remember-purchaes {
-	margin0 0 0 0 !important
+	margin: 0 0 0 0 !important;
 }
 
 .logout-wrapper .offer-title,
 .logout-wrapper .offer-detail-info,
 .logout-wrapper .unblock-narrow,
 .logout-wrapper .remember-purchaes {
-	margin0 0 0 0 !important
+	margin: 0 0 0 0 !important;
 }
 
 .logout-wrapper .head-mtop-space {
-	margin-top10px
+	margin-top: 10px;
 }
 
 .logout-wrapper .head-amazon-font {
-	font-size1.6em
+	font-size: 1.6em;
 }
 
 .logout-wrapper p.bottom-space {
-	margin-bottom10px
+	margin-bottom: 10px;
 }
 
 .loading-container {
 	positionrelative;
-	height250px
+	height: 250px;
 }
 
 .loading-container .inner-loading {
 	positionabsolute;
-	left0;
-	right0;
-	top0;
-	bottom0;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 	marginauto;
 	displayinline-block
 }
 
 .error-page {
-	width940px;
-	margin50px auto 0 auto
+	width: 940px;
+	margin: 50px auto 0 auto;
 }
 
 .error-page .error-heading {
-	font-size1.5em;
-	font-familyDiscoverSans-Bold;
-	line-height1.25
+	font-size: 1.5em;
+	font-family: DiscoverSans-Bold;
+	line-height: 1.25;
 }
 
 .error-page .error-description {
-	padding20px 0 18px 0;
-	line-height1.47em
+	padding: 20px 0 18px 0;
+	line-height: 1.47em;
 }
 
 .font-italic {
@@ -1659,8 +1659,8 @@
 }
 
 .activation-container .amanda-gas-offer.offer-container {
-	margin40px 0 50px 0;
-	outline0
+	margin: 40px 0 50px 0;
+	outline: 0;
 }
 
 .activation-container .amanda-gas-offer.offer-container .offer-img-container {
@@ -1668,17 +1668,17 @@
 }
 
 .activation-container .amanda-gas-offer.offer-container .offer-img-container .offer-image {
-	width300px;
-	height180px;
+	width: 300px;
+	height: 180px;
 	background#dbdbdb
 }
 
 .activation-container .amanda-gas-offer.offer-container .row .offer-mob-view {
-	padding0 30px
+	padding: 0 30px;
 }
 
 .grocery-store .offer-mob-view {
-	width61%
+	width: 61%;
 }
 
 .grocery-store .activated-offer .offer-detail-info {
@@ -1686,28 +1686,28 @@
 }
 
 .offer-title {
-	font-familyDiscoverSans-Book;
-	line-height1.25em;
-	font-size1.4em;
-	padding-bottom20px;
-	width90%;
+	font-family: DiscoverSans-Book;
+	line-height: 1.25em;
+	font-size: 1.4em;
+	padding-bottom: 20px;
+	width: 90%;
 	font-weightbold
 }
 
 .offer-titlefocus {
-	outline0
+	outline: 0;
 }
 
 .offer-name {
-	color#ff6000;
-	font-size1em;
-	padding-bottom8px;
-	line-height1em
+	color#ff: 6000;
+	font-size: 1em;
+	padding-bottom: 8px;
+	line-height: 1em;
 }
 
 .offer-detail-info {
-	padding-bottom18px;
-	line-height1.467em
+	padding-bottom: 18px;
+	line-height: 1.467em;
 }
 
 .nowrap-text {
@@ -1716,7 +1716,7 @@
 
 .offer-container .activated-offer {
 	displaynone;
-	width59%
+	width: 59%;
 }
 
 .offer-container.activated .activate-offer {
@@ -1732,56 +1732,56 @@
 }
 
 .activated-offer .remember-purchaes {
-	padding-top15px
+	padding-top: 15px;
 }
 
 .activated-offer .calendar-menu {
-	margin0
+	margin: 0;
 }
 
 .activated-offer .offer-detail-info {
-	padding-bottom10px
+	padding-bottom: 10px;
 }
 
 .promotions-sprite {
-	backgroundurl(applicationslogin-logoutimagespromotions-sprite.png) no-repeat
+	background: url(applicationslogin-logoutimagespromotions-sprite.png) no-repeat;
 }
 
 .calendar-menu {
 	positionrelative;
 	font-weightnormal;
 	font-size.9375em;
-	padding1px 0;
-	border0;
+	padding: 1px 0;
+	border: 0;
 	text-decorationnone
 }
 
 .calendar-menu .add-to-calendar {
-	padding-left6px;
+	padding-left: 6px;
 	color#2477ab
 }
 
 .calendar-menu .add-to-calendar-icon {
-	background-position-10px -48px;
-	background-size32px 120px;
+	background-position-: 10px -48px;
+	background-size: 32px 120px;
 	displayinline-block;
-	width12px;
-	height12px
+	width: 12px;
+	height: 12px;
 }
 
 .disclaimer-details {
 	color#63686b;
-	border-top1px solid #dbdbdb;
-	padding-top50px
+	border-top: 1px solid #dbdbdb;
+	padding-top: 50px;
 }
 
 .disclaimer-details .program-details-heading {
 	font-size.9em;
-	line-height1.75em;
-	outline0;
+	line-height: 1.75em;
+	outline: 0;
 	color#63686b;
-	font-familyDiscoverSans-Book;
-	padding-bottom5px;
+	font-family: DiscoverSans-Book;
+	padding-bottom: 5px;
 	font-weightbold
 }
 
@@ -1790,8 +1790,8 @@
 }
 
 .disclaimer-details .program-details-list {
-	margin-top5px;
-	padding-left13px
+	margin-top: 5px;
+	padding-left: 13px;
 }
 
 .disclaimer-details p {
@@ -1799,48 +1799,48 @@
 }
 
 .new-reference-modal-tooltip.tooltip-overlay {
-	width189px0;
-	width200px !important
+	width: 189px0;
+	width: 200px !important;
 }
 
 .new-reference-modal-tooltip.tooltip-overlay .tooltip-body {
-	padding10px 19px 5px
+	padding: 10px 19px 5px;
 }
 
 .new-reference-modal-tooltip.tooltip-overlay .tooltip-body .tooltip-anchor-heading,
-.new-reference-modal-tooltip.tooltip-overlay .tooltip-body h4 {
-	margin0
+.new-reference-modal-tooltip.tooltip-overlay .tooltip-body h: 4 {
+	margin: 0;
 }
 
 .new-reference-modal-tooltip.tooltip-overlay .tooltip-body .calendar-list {
-	margin-bottom0
+	margin-bottom: 0;
 }
 
 .new-reference-modal-tooltip.tooltip-overlay .tooltip-body .cal-icon {
-	backgroundurl(globalimagesutility-icons.png) no-repeat;
-	background-position-537px -391px;
-	width16px;
-	height11px;
+	background: url(globalimagesutility-icons.png) no-repeat;
+	background-position-: 537px -391px;
+	width: 16px;
+	height: 11px;
 	displayinline-block;
 	floatright;
-	margin-left12px;
-	margin-top3px
+	margin-left: 12px;
+	margin-top: 3px;
 }
 
 .new-reference-modal-tooltip.tooltip-overlay .tooltip-body li {
-	padding10px 0
+	padding: 10px 0;
 }
 
 #program-deid {
-	margin-left-8px
+	margin-left-: 8px;
 }
 
 .usage-offer {
-	padding-right8%
+	padding-right: 8%;
 }
 
 #offer-usage {
-	width100%
+	width: 100%;
 }
 
 .break-block {
@@ -1848,22 +1848,22 @@
 }
 
 #login-cardmember-stud {
-	margin-top25px;
-	margin-left116px;
-	margin-bottom20px
+	margin-top: 25px;
+	margin-left: 116px;
+	margin-bottom: 20px;
 }
 
-#but-jul1 {
-	border1px solid #2477ab;
+#but-jul: 1 {
+	border: 1px solid #2477ab;
 	backgroundnone !important;
 	color#2477ab;
-	max-width358px;
-	font-size1.1em
+	max-width: 358px;
+	font-size: 1.1em;
 }
 
-#next-dpl1,
-#next-dpl2 {
-	width471px
+#next-dpl: 1,;
+#next-dpl: 2 {
+	width: 471px;
 }
 
 .dhl-timeout-head,
@@ -1872,30 +1872,30 @@
 }
 
 .product-img-size-reduce {
-	width92px;
-	height89px
+	width: 92px;
+	height: 89px;
 }
 
 .product-width-div {
-	margin-top25px;
+	margin-top: 25px;
 	text-aligncenter;
 	floatleft
 }
 
 .products-margin {
-	margin-bottom0 !important
+	margin-bottom: 0 !important;
 }
 
 .product-width-div p {
-	color#ff6000;
+	color#ff: 6000;
 	font-weightbold;
-	width100% !important
+	width: 100% !important;
 }
 
 .product-width-div p,
 .product-width-div a {
 	text-aligncenter;
-	padding-left5px
+	padding-left: 5px;
 }
 
 .product-width-div a {
@@ -1903,14 +1903,14 @@
 	font-weightbold
 }
 
-@media(min-width990px) {
+@media(min-width: 990px) {
 	.product-width-div {
-		width16%
+		width: 16%;
 	}
 }
 
 a.dmp-raf-alink {
-	border-bottom1px #2477ab solid
+	border-bottom: 1px #2477ab solid;
 }
 
 a.dmp-raf-alinkhover {
@@ -1918,50 +1918,50 @@ a.dmp-raf-alinkhover {
 }
 
 .dmp-content-raf {
-	margin-right12px
+	margin-right: 12px;
 }
 
 .dmp-rafmargin-head {
-	margin-bottom0;
+	margin-bottom: 0;
 	widthauto
 }
 
 .btn-border-radius {
-	border-radius4px !important
+	border-radius: 4px !important;
 }
 
 #dmp-bottom-content {
-	bottom54px;
+	bottom: 54px;
 	font-size.8em
 }
 
 #dmp-amazonb-content {
-	bottom55px;
+	bottom: 55px;
 	font-size.9em;
-	width50%
+	width: 50%;
 }
 
 .dmp-text-orange {
-	color#ff6000
+	color#ff: 6000;
 }
 
 .logback-button .see-terms-txt {
-	margin-left9px
+	margin-left: 9px;
 }
 
 .row .head-top-padding {
-	padding-top24px
+	padding-top: 24px;
 }
 
 .as-trick {
 	displayinline-block;
-	width2%;
+	width: 2%;
 	vertical-aligntop
 }
 
 .list-content-space {
 	displayinline-block;
-	width94%
+	width: 94%;
 }
 
 .text-paypal-font {
@@ -1970,25 +1970,25 @@ a.dmp-raf-alinkhover {
 }
 
 .reduce-four-size {
-	margin15px 0 10px 0 !important
+	margin: 15px 0 10px 0 !important;
 }
 
 .bottom-reduce-space {
-	margin-top23px
+	margin-top: 23px;
 }
 
 #redamz-partner-space {
-	margin-top23px
+	margin-top: 23px;
 }
 
-@media(min-width991px) {
+@media(min-width: 991px) {
 	.dmp-dpl-chgsize {
-		width103% !important
+		width: 103% !important;
 	}
 }
 
 .dmp-border-width {
-	border-width2px !important
+	border-width: 2px !important;
 }
 
 .btn-dmp-font {
@@ -1997,7 +1997,7 @@ a.dmp-raf-alinkhover {
 
 .btn-new-primary {
 	color#fff;
-	width100%
+	width: 100%;
 }
 
 .btn-new-primary,
@@ -2008,58 +2008,58 @@ a.dmp-raf-alinkhover {
 	background#3a81b0
 }
 
-.btn-new-primary1 {
-	width100%
+.btn-new-primary: 1 {
+	width: 100%;
 }
 
 .dmp-adobe-btn {
-	padding-left50px;
-	padding-right50px
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
-.dmp-adobe-btn1 {
+.dmp-adobe-btn: 1 {
 	pointer-eventsnone
 }
 
 .dmp-btm-content {
-	padding-right138px;
+	padding-right: 138px;
 	font-size.9em
 }
 
-h1.dmp-amazon-header {
-	font-size1.5em;
+h: 1.dmp-amazon-header {
+	font-size: 1.5em;
 	font-weightnormal
 }
 
 .dmp-amazon-content {
-	margin-top68px
+	margin-top: 68px;
 }
 
 .offer-terms-font {
 	font-size.96em
 }
 
-h1.dmp-header-topx {
-	margin-top1px
+h: 1.dmp-header-topx {
+	margin-top: 1px;
 }
 
 #redamz-space .adobe-btn-radius {
-	border-radius0
+	border-radius: 0;
 }
 
 .adobe-list-li {
 	displayinline-block;
-	padding-left10px
+	padding-left: 10px;
 }
 
 .adobe-list-ul {
-	padding-bottom15px
+	padding-bottom: 15px;
 }
 
 .timeout-wrapper p.adobe-list-position,
 .logout-wrapper p.adobe-list-position {
-	padding-bottom10px;
-	margin0 0 0 20px
+	padding-bottom: 10px;
+	margin: 0 0 0 20px;
 }
 
 .adobe-list-black-circle {
@@ -2069,192 +2069,192 @@ h1.dmp-header-topx {
 }
 
 .row .border-adobe-second {
-	border-width2px !important
+	border-width: 2px !important;
 }
 
-@media(max-width991px) {
+@media(max-width: 991px) {
 	#login-cardmember-stud {
-		margin-top44px;
-		font-size16px;
-		margin-left77px
+		margin-top: 44px;
+		font-size: 16px;
+		margin-left: 77px;
 	}
 
 	#learn-cta-stud {
-		margin-left112px
+		margin-left: 112px;
 	}
 
-	.logout-dmp-identity-2021,
-	.timeout-dmp-identity-2021,
-	.logout-dmp-sam-2021,
-	.logout-dmp-paypaljun-2021 {
-		height284px
+	.logout-dmp-identity-: 2021,;
+	.timeout-dmp-identity-: 2021,;
+	.logout-dmp-sam-: 2021,;
+	.logout-dmp-paypaljun-: 2021 {
+		height: 284px;
 	}
 
 	.login-wrapper .login-web-target {
-		margin-left35px
+		margin-left: 35px;
 	}
 
 	.login-wrapper .login-web-target .logincard-image {
-		height252px;
-		width277px
+		height: 252px;
+		width: 277px;
 	}
 
 	.login-wrapper .login-web-target .logincard-image-discover {
-		max-height110px;
-		width100%;
-		margin-top38px
+		max-height: 110px;
+		width: 100%;
+		margin-top: 38px;
 	}
 
 	.login-wrapper .login-web-target .content-stud {
-		padding-right10px;
+		padding-right: 10px;
 		font-size.8em
 	}
 
 	.login-wrapper .login-web-target .logincard-image-studentcard {
-		max-height195px;
-		width100%;
-		margin-top38px;
-		margin-left21px
+		max-height: 195px;
+		width: 100%;
+		margin-top: 38px;
+		margin-left: 21px;
 	}
 
 	.login-wrapper .timeout-image,
 	.login-wrapper .logout-image,
 	.login-wrapper .logout-jdpower-image,
 	.login-wrapper .logout-jdpower-image-new {
-		height242px
+		height: 242px;
 	}
 
 	.logout-door-image {
-		height242px;
-		width461px;
-		backgroundurl(applicationslogin-logoutimagesDB_16_00454_Mid-Logout_H_image.jpg) no-repeat center center;
+		height: 242px;
+		width: 461px;
+		background: url(applicationslogin-logoutimagesDB_16_00454_Mid-Logout_H_image.jpg) no-repeat center center;
 		background-sizecover
 	}
 
-	.logout-door-image-2020 {
-		height270px
+	.logout-door-image-: 2020 {
+		height: 270px;
 	}
 
-	.logout-couple-image-2020 {
-		height314px
+	.logout-couple-image-: 2020 {
+		height: 314px;
 	}
 
-	.logout-dog-image-2020 {
-		height270px
+	.logout-dog-image-: 2020 {
+		height: 270px;
 	}
 
-	.dmp-paypal2021-may {
-		height286px
+	.dmp-paypal: 2021-may {
+		height: 286px;
 	}
 
-	.logout-man-image-2020 {
-		height274px;
-		backgroundurl(applicationslogin-logoutimagesDB_16_00454_4_M.jpg) no-repeat center center
+	.logout-man-image-: 2020 {
+		height: 274px;
+		background: url(applicationslogin-logoutimagesDB_16_00454_4_M.jpg) no-repeat center center;
 	}
 
-	.logout-doorlogo-image-2020 {
-		height290px;
+	.logout-doorlogo-image-: 2020 {
+		height: 290px;
 		background-sizecontain
 	}
 
-	.logout-couplelogo-image-2020 {
-		height280px
+	.logout-couplelogo-image-: 2020 {
+		height: 280px;
 	}
 
-	.logout-doglogo-image-2020 {
-		height270px
+	.logout-doglogo-image-: 2020 {
+		height: 270px;
 	}
 
-	.logout-manlogo-image-2020 {
-		height274px;
-		backgroundurl(applicationslogin-logoutimagesDB_16_00454_4_M_logo.jpg) no-repeat center center
+	.logout-manlogo-image-: 2020 {
+		height: 274px;
+		background: url(applicationslogin-logoutimagesDB_16_00454_4_M_logo.jpg) no-repeat center center;
 	}
 
 	.logout-redem-amazon {
-		height320px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_16_01232_Q4SiteMktg_Wide_092816.jpg) no-repeat center center;
+		height: 320px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_16_01232_Q4SiteMktg_Wide_092816.jpg) no-repeat center center;
 		background-sizecover
 	}
 
-	#disclosure-amazon1 {
-		margin-bottom169px
+	#disclosure-amazon: 1 {
+		margin-bottom: 169px;
 	}
 
 	.logout-box-image {
-		height242px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_16_00902_Mid-Logout.jpg) no-repeat center center;
+		height: 242px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_16_00902_Mid-Logout.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.logout-box-image-cloths {
-		height242px;
-		backgroundurl(applicationslogin-logoutimagesDC_16_00934_Mid_clothes_v2.jpg) no-repeat center center;
+		height: 242px;
+		background: url(applicationslogin-logoutimagesDC_16_00934_Mid_clothes_v2.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
-	.dmp-raf2021-Jul {
-		backgroundurl(applicationslogin-logoutimagesRAF_2021_Jul_Logout_IMG_M.jpg) no-repeat center center;
+	.dmp-raf: 2021-Jul {
+		background: url(applicationslogin-logoutimagesRAF_2021_Jul_Logout_IMG_M.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.logout-raf-image {
-		height242px;
-		backgroundurl(applicationslogin-logoutimagesRAFCutouts_Image-Middle.jpg) no-repeat center center;
+		height: 242px;
+		background: url(applicationslogin-logoutimagesRAFCutouts_Image-Middle.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
 	#disclosure-amazon {
-		margin-bottom0
+		margin-bottom: 0;
 	}
 
 	#login-cardmember {
-		margin-top18px;
-		font-size16px;
-		margin-left77px
+		margin-top: 18px;
+		font-size: 16px;
+		margin-left: 77px;
 	}
 
 	#learn-cta {
-		margin-left112px
+		margin-left: 112px;
 	}
 
 	.logout-widedoor-image {
-		height273px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimages01571_Middle.jpg) no-repeat center top;
+		height: 273px;
+		width: 100%;
+		background: url(applicationslogin-logoutimages: 01571_Middle.jpg) no-repeat center top;
 		background-sizecover
 	}
 
-	#amazon-bottom-text1 {
-		padding-top50px
+	#amazon-bottom-text: 1 {
+		padding-top: 50px;
 	}
 
 	.logout-boxdoor-image {
-		height273px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_16_01982_middle_img.jpg) no-repeat center top;
+		height: 273px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_16_01982_middle_img.jpg) no-repeat center top;
 		background-sizecover
 	}
 
 	.logout-detergentpaint-image {
-		height283px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_16_01956_wide_Img.jpg) no-repeat center center;
+		height: 283px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_16_01956_wide_Img.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.logout-bettersavings-image {
-		height285px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDB_17_00076_image_Middle_242_331.jpg) no-repeat center center;
+		height: 285px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDB_17_00076_image_Middle_242_331.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.logout-dpl-image {
-		height285px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDB_17_00046_DPL_LogOff_331_242_Middle.jpg) no-repeat center center;
+		height: 285px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDB_17_00046_DPL_LogOff_331_242_Middle.jpg) no-repeat center center;
 		background-sizecover
 	}
 
@@ -2263,85 +2263,85 @@ h1.dmp-header-topx {
 	}
 
 	#timeoutpara {
-		width243px
+		width: 243px;
 	}
 
 	#college-text {
-		width250px
+		width: 250px;
 	}
 
 	.logout-timeout-image {
-		height207px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_17_00085_DSL_LogOffTimeOut_331x242_middle.jpg) no-repeat center center;
+		height: 207px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_17_00085_DSL_LogOffTimeOut_331x242_middle.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.logout-dc-image {
-		height250px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_17_00762_wide_540x356.jpg) no-repeat center center;
+		height: 250px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_17_00762_wide_540x356.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.logout-GulfPay-image {
-		height289px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_17_01014_GulfPay_LogOff_wide_img.jpg) no-repeat center center;
+		height: 289px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_17_01014_GulfPay_LogOff_wide_img.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
 	.timeout-onetimernever-img,
 	.timeout-power-img {
-		height284px;
-		margin-top7px;
-		background-position46%
+		height: 284px;
+		margin-top: 7px;
+		background-position: 46%;
 	}
 
 	.timeout-deposit-img {
-		backgroundurl(applicationslogin-logoutimagesTimeout_MED_347x280.jpg) no-repeat center center;
+		background: url(applicationslogin-logoutimagesTimeout_MED_347x280.jpg) no-repeat center center;
 		background-sizecover;
-		height300px;
-		width100%
+		height: 300px;
+		width: 100%;
 	}
 
 	.logout-image-board {
-		height322px;
-		backgroundurl(applicationslogin-logoutimagesimage_209-W_4.jpg) no-repeat center right;
+		height: 322px;
+		background: url(applicationslogin-logoutimagesimage_209-W_4.jpg) no-repeat center right;
 		background-sizecover
 	}
 
-	.dmp-adobe-btimg-1,
-	.dmp-adobe-btimg-2,
-	.dmp-adobe-btimg-3,
+	.dmp-adobe-btimg-: 1,;
+	.dmp-adobe-btimg-: 2,;
+	.dmp-adobe-btimg-: 3,;
 	.dmp-dhe-adobe {
-		height280px
+		height: 280px;
 	}
 
-	.dmp-adobe-btimg-1 {
-		backgroundurl(applicationslogin-logoutimagesPOR_20_740859_BT_LO_LP_image_3_347X280.jpg) no-repeat center right
+	.dmp-adobe-btimg-: 1 {
+		background: url(applicationslogin-logoutimagesPOR_20_740859_BT_LO_LP_image_3_347X280.jpg) no-repeat center right;
 	}
 
-	.dmp-adobe-btimg-2 {
-		backgroundurl(applicationslogin-logoutimagesPOR_20_740859_BT_TO_LP_image_1_347X280.jpg) no-repeat center right
+	.dmp-adobe-btimg-: 2 {
+		background: url(applicationslogin-logoutimagesPOR_20_740859_BT_TO_LP_image_1_347X280.jpg) no-repeat center right;
 	}
 
-	.dmp-adobe-btimg-3 {
-		backgroundurl(applicationslogin-logoutimagesPOR_20_740859_BT_TO_LP_image_2_347X280.jpg) no-repeat center right
+	.dmp-adobe-btimg-: 3 {
+		background: url(applicationslogin-logoutimagesPOR_20_740859_BT_TO_LP_image_2_347X280.jpg) no-repeat center right;
 	}
 
 	.dmp-dhe-adobe {
-		backgroundurl(applicationslogin-logoutimagesMED_Timout_dhe_img.jpg) no-repeat center right
+		background: url(applicationslogin-logoutimagesMED_Timout_dhe_img.jpg) no-repeat center right;
 	}
 
-	.logout-image209-board {
-		height322px;
-		backgroundurl(applicationslogin-logoutimagesimage_209-W_5.jpg) no-repeat center center;
+	.logout-image: 209-board {
+		height: 322px;
+		background: url(applicationslogin-logoutimagesimage_209-W_5.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.logout-gasGround-Transport {
-		height260px
+		height: 260px;
 	}
 
 	.row .hide-imag {
@@ -2349,131 +2349,131 @@ h1.dmp-header-topx {
 	}
 
 	.row .row-padding {
-		width100%
+		width: 100%;
 	}
 
 	.logback-button.round-edge p {
 		displayinline;
-		padding-left15px
+		padding-left: 15px;
 	}
 
-	#next-dpl1 {
-		width364px !important
+	#next-dpl: 1 {
+		width: 364px !important;
 	}
 
-	#next-dpl2 {
-		width272px !important
+	#next-dpl: 2 {
+		width: 272px !important;
 	}
 
 	#dmp-amazonb-content {
-		margin-top23px;
-		bottom0;
-		width100%
+		margin-top: 23px;
+		bottom: 0;
+		width: 100%;
 	}
 
 	.dmp-parteners-img {
-		margin-top-24px;
-		height261px;
+		margin-top-: 24px;
+		height: 261px;
 		background-sizecontain
 	}
 
-	.logout-dmp-itp-img2019 {
-		height272px
+	.logout-dmp-itp-img: 2019 {
+		height: 272px;
 	}
 
 	.dmp-dhebill-img {
-		height242px;
-		backgroundurl(applicationslogin-logoutimagesDHE_LO_041019331x242_LR.jpg) no-repeat center
+		height: 242px;
+		background: url(applicationslogin-logoutimagesDHE_LO_041019331x242_LR.jpg) no-repeat center;
 	}
 
-	.dmp-dhe2019-jul,
-	.dmp-sbc2020-sep,
-	.dmp-sbc2020-dec {
-		height230px
+	.dmp-dhe: 2019-jul,;
+	.dmp-sbc: 2020-sep,;
+	.dmp-sbc: 2020-dec {
+		height: 230px;
 	}
 
-	.dpl-log2021-jul,
-	.dpl-time2021-jul {
-		height296px
+	.dpl-log: 2021-jul,;
+	.dpl-time: 2021-jul {
+		height: 296px;
 	}
 
-	.dmp-flash2-2020 {
-		height223px;
+	.dmp-flash: 2-: 2020 {
+		height: 223px;
 		background-sizeauto
 	}
 
-	.dmp-amazon2019-jul {
-		height230px
+	.dmp-amazon: 2019-jul {
+		height: 230px;
 	}
 
-	.dmp-dpl2019-jul {
-		height264px
+	.dmp-dpl: 2019-jul {
+		height: 264px;
 	}
 
-	.dmp-walmartjun19-img {
+	.dmp-walmartjun: 19-img {
 		background-imageurl(applicationslogin-logoutimagesAdobeStock_83659966_walmart_242x331.jpg);
-		height242px
+		height: 242px;
 	}
 
 	.dmp-dpl-block {
 		displayblock
 	}
 
-	.dmp-walmart-jul19 {
-		height188px;
+	.dmp-walmart-jul: 19 {
+		height: 188px;
 		background-imageurl(applicationslogin-logoutimagesM_Fruits_Logo.jpg)
 	}
 
 	.logout-dmp-dec-seg {
-		height298px;
-		width100%;
+		height: 298px;
+		width: 100%;
 		background-imageurl(applicationslogin-logoutimagesCP_19_675755_Free_Inquiry_Alerts_Time_Out_Image_M.jpg)
 	}
 
 	.dmp-btm-content {
-		padding-right61px
+		padding-right: 61px;
 	}
 }
 
-@media(min-width946px) {
+@media(min-width: 946px) {
 	#best-buy-space {
-		padding-top45px
+		padding-top: 45px;
 	}
 }
 
-@media(min-width730px) and (max-width985px) {
+@media(min-width: 730px) and (max-width: 985px) {
 	.logout-wide-image {
 		background-sizecontain;
-		height265px;
-		width100%
+		height: 265px;
+		width: 100%;
 	}
 
 	.gulf-points {
 		font-size.9375em;
-		margin-top15px
+		margin-top: 15px;
 	}
 }
 
-@media(min-width730px) and (max-width990px) {
+@media(min-width: 730px) and (max-width: 990px) {
 	#jpower-AlertsAwareness {
-		height510px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesskydiver-slice-MED.jpg) no-repeat right top;
+		height: 510px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesskydiver-slice-MED.jpg) no-repeat right top;
 		background-sizecover
 	}
 
 	.logoff-wide-image {
-		height268px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC-17-00000_Logoff-WIDE_IMAGE_471x356-min.jpg) no-repeat center center;
+		height: 268px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC-: 17-: 00000_Logoff-WIDE_IMAGE_471x356-min.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.wide-para {
-		width88%
+		width: 88%;
 	}
 
-	#wide-text .col-sm-5 col-xs-12 {
+	#wide-text .col-sm-: 5 col-xs-: 12 {
 		displaynone
 	}
 
@@ -2482,14 +2482,14 @@ h1.dmp-header-topx {
 	}
 
 	.redamz-wide-image {
-		height218px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_17_00495_0417_Q2RedAmz_Narrow.jpg) no-repeat center center;
+		height: 218px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_17_00495_0417_Q2RedAmz_Narrow.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
-	#redamz-space1 {
-		margin-top14px
+	#redamz-space: 1 {
+		margin-top: 14px;
 	}
 
 	.logout-rel-vncy,
@@ -2498,138 +2498,138 @@ h1.dmp-header-topx {
 	.logout-dmp-dhl-abtest,
 	.logout-dmp-samclub-img,
 	.logout-dmp-dpl-time {
-		height281px
+		height: 281px;
 	}
 
-	.logout-stud-grad19 {
-		height163px
+	.logout-stud-grad: 19 {
+		height: 163px;
 	}
 
 	#csc-Alertstimeout {
-		height510px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesAlerts_CSC_Timeout_IMAGE_LRG_v4_1110.jpg) no-repeat left bottom;
+		height: 510px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesAlerts_CSC_Timeout_IMAGE_LRG_v4_1110.jpg) no-repeat left bottom;
 		background-sizecover
 	}
 
 	#csc-Alertstimeout12 {
-		height578px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDHE_TimeoutAd_July_R1.jpg) no-repeat left bottom;
+		height: 578px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDHE_TimeoutAd_July_R1.jpg) no-repeat left bottom;
 		background-sizecover
 	}
 
 	#dmp-bottom-content {
-		bottom76px
+		bottom: 76px;
 	}
 }
 
-@media(min-width856px) and (max-width991px) {
+@media(min-width: 856px) and (max-width: 991px) {
 	.logout-WFALogoff-image {
-		height210px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC-17-00282_WFA_Logoff_mid-min.jpg) no-repeat center center;
+		height: 210px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC-: 17-: 00282_WFA_Logoff_mid-min.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	#csc-align {
-		margin-bottom210px
+		margin-bottom: 210px;
 	}
 }
 
-@media(min-width729px) and (max-width855px) {
+@media(min-width: 729px) and (max-width: 855px) {
 	.logout-WFALogoff-image {
-		height197px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC-17-00282_WFA_Logoff_mid-min.jpg) no-repeat center center;
+		height: 197px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC-: 17-: 00282_WFA_Logoff_mid-min.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.logout-restaurants-bonus {
-		height280px;
-		margin-top48px
+		height: 280px;
+		margin-top: 48px;
 	}
 
-	#bonus-space1 {
-		margin-bottom25px
+	#bonus-space: 1 {
+		margin-bottom: 25px;
 	}
 
 	#csc-align {
-		margin-bottom245px
+		margin-bottom: 245px;
 	}
 }
 
-@media(min-width729px) and (max-width991px) {
+@media(min-width: 729px) and (max-width: 991px) {
 	#wfa-heading {
-		margin12px 0 20px 0
+		margin: 12px 0 20px 0;
 	}
 
 	.logout-amazon-target {
-		height348px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_17_01249_Q45p_LogOff_Middle_v3.jpg) no-repeat;
+		height: 348px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_17_01249_Q45p_LogOff_Middle_v3.jpg) no-repeat;
 		background-sizecontain
 	}
 
 	.product-width-div {
-		border-bottom1px solid;
-		width30%;
-		margin-left3%;
-		padding-bottom20px
+		border-bottom: 1px solid;
+		width: 30%;
+		margin-left: 3%;
+		padding-bottom: 20px;
 	}
 
 	.loans-heading {
-		font-size1.434em !important
+		font-size: 1.434em !important;
 	}
 }
 
-@media(min-width730px) {
+@media(min-width: 730px) {
 	#jdtimeout {
-		width40%;
-		line-height23px;
-		margin-left14px;
+		width: 40%;
+		line-height: 23px;
+		margin-left: 14px;
 		color#fff;
 		font-weightbold;
-		font-size17px;
-		margin-top10px
+		font-size: 17px;
+		margin-top: 10px;
 	}
 
 	#manage_service {
-		margin-left14px
+		margin-left: 14px;
 	}
 
 	#jdpower_head {
-		margin-top17px;
-		margin-left14px;
+		margin-top: 17px;
+		margin-left: 14px;
 		color#fff;
-		font-size1.6em
+		font-size: 1.6em;
 	}
 
 	#gulf-text {
-		width75%;
-		margin-top5px
+		width: 75%;
+		margin-top: 5px;
 	}
 
 	#gulf-bottom-text {
-		width75%
+		width: 75%;
 	}
 
-	.hide-class1 {
+	.hide-class: 1 {
 		displaynone
 	}
 
-	.lock1 {
+	.lock: 1 {
 		displaynone
 	}
 
 	.csctimeout {
-		width40%;
-		line-height23px;
-		margin-left14px !important;
+		width: 40%;
+		line-height: 23px;
+		margin-left: 14px !important;
 		color#fff;
 		font-weightbold;
-		font-size17px;
-		margin-top10px !important
+		font-size: 17px;
+		margin-top: 10px !important;
 	}
 
 	.row.gasGround .hidden-lg {
@@ -2637,78 +2637,78 @@ h1.dmp-header-topx {
 	}
 }
 
-@media(max-width991px) {
-	.logout-raf-image77 {
-		height242px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesTieredOfferTimeout_331x242_middle.jpg) no-repeat center center;
+@media(max-width: 991px) {
+	.logout-raf-image: 77 {
+		height: 242px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesTieredOfferTimeout_331x242_middle.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
-	.logout-raf-image78 {
-		height242px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesPromoPrcngTimeout_331x242_middle.jpg) no-repeat center center;
+	.logout-raf-image: 78 {
+		height: 242px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesPromoPrcngTimeout_331x242_middle.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
-	.logout-raf-image566,
-	.logout-raf-image567 {
-		height242px;
-		width100%;
+	.logout-raf-image: 566,;
+	.logout-raf-image: 567 {
+		height: 242px;
+		width: 100%;
 		background-sizecontain
 	}
 
-	.logout-raf-image566 {
-		backgroundurl(applicationslogin-logoutimagesPOE_Medium_331x242_option1.jpg) no-repeat center center
+	.logout-raf-image: 566 {
+		background: url(applicationslogin-logoutimagesPOE_Medium_331x242_option1.jpg) no-repeat center center;
 	}
 
-	.logout-raf-image567 {
-		backgroundurl(applicationslogin-logoutimagesPOE_Medium_331x242_option2.jpg) no-repeat center center
+	.logout-raf-image: 567 {
+		background: url(applicationslogin-logoutimagesPOE_Medium_331x242_option2.jpg) no-repeat center center;
 	}
 
 	#first-content,
 	#second-content {
 		floatleft !important;
-		padding-right0 !important
+		padding-right: 0 !important;
 	}
 
 	#pull-option {
 		floatright !important
 	}
 
-	.logout-box-image-cloths11 {
-		height263px;
-		backgroundurl(applicationslogin-logoutimagesRWD1114_Q1Redemption_AmazonImage_TimeOut_Mid.jpg) no-repeat center center;
+	.logout-box-image-cloths: 11 {
+		height: 263px;
+		background: url(applicationslogin-logoutimagesRWD1114_Q1Redemption_AmazonImage_TimeOut_Mid.jpg) no-repeat center center;
 		background-sizecover
 	}
 }
 
-@media(max-width991px) {
+@media(max-width: 991px) {
 	.container .row.lock .error-page {
-		width100%;
-		margin30px auto 0 auto
+		width: 100%;
+		margin: 30px auto 0 auto;
 	}
 
 	.mobile-responsive .container {
-		padding0 30px
+		padding: 0 30px;
 	}
 
 	.amanda-gas-offer .offer-mob-view {
-		padding0 28px
+		padding: 0 28px;
 	}
 
 	.amanda-gas-offer .offer-mob-view,
 	.grocery-store .offer-mob-view {
-		width58%
+		width: 58%;
 	}
 
 	.activation-container .amanda-gas-offer.offer-container .offer-img-container .offer-image {
-		width280px
+		width: 280px;
 	}
 
 	.disclaimer-details .container {
-		padding0
+		padding: 0;
 	}
 
 	.unblock-narrow {
@@ -2716,13 +2716,13 @@ h1.dmp-header-topx {
 	}
 }
 
-@media(max-width991px) and (min-width650px) {
-	.login-wrapper .login-web-target h1.head-stud {
-		font-size1.0em
+@media(max-width: 991px) and (min-width: 650px) {
+	.login-wrapper .login-web-target h: 1.head-stud {
+		font-size: 1.0em;
 	}
 }
 
-@media(max-width729px) {
+@media(max-width: 729px) {
 	.logback-button.round-edge .show-name {
 		displaynone
 	}
@@ -2734,20 +2734,20 @@ h1.dmp-header-topx {
 	.logback-button.round-edge p {
 		displayblock;
 		text-alignleft;
-		padding-left0
+		padding-left: 0;
 	}
 
 	.logback-button.round-edge a .btn-primary.btn-active {
-		width100%;
-		max-width100%
+		width: 100%;
+		max-width: 100%;
 	}
 
 	.noncardlogout {
-		max-height938px
+		max-height: 938px;
 	}
 
-	#disclosure-amazon1 {
-		margin-bottom0
+	#disclosure-amazon: 1 {
+		margin-bottom: 0;
 	}
 
 	.noncard-content {
@@ -2757,28 +2757,28 @@ h1.dmp-header-topx {
 
 	.noncard-border {
 		floatnone;
-		width60%;
+		width: 60%;
 		border-topsolid 1px #dbdbdb;
-		height1px;
-		margin0 auto 10px
+		height: 1px;
+		margin: 0 auto 10px;
 	}
 
-	.login-wrapper .col-xs-12 {
-		width50%
+	.login-wrapper .col-xs-: 12 {
+		width: 50%;
 	}
 
 	.login-wrapper .login-web-target {
-		margin-left10px
+		margin-left: 10px;
 	}
 
-	.timeout-wrapper h1,
-	.logout-wrapper h1 {
-		margin-bottom20px
+	.timeout-wrapper h: 1,;
+	.logout-wrapper h: 1 {
+		margin-bottom: 20px;
 	}
 
 	.timeout-wrapper .image-container,
 	.logout-wrapper .image-container {
-		padding0
+		padding: 0;
 	}
 
 	.timeout-wrapper .logback-button,
@@ -2788,138 +2788,138 @@ h1.dmp-header-topx {
 	}
 
 	.logout-wrapper img.discover-deals-img {
-		margin30px auto 10px auto
+		margin: 30px auto 10px auto;
 	}
 
 	.timeout-image,
 	.logout-image,
 	.logout-jdpower-image,
 	.logout-jdpower-image-new {
-		height242px;
-		margin-left-5px;
-		margin-right-5px;
+		height: 242px;
+		margin-left-: 5px;
+		margin-right-: 5px;
 		widthauto
 	}
 
 	.logout-Scissors {
-		height242px;
-		margin0 auto;
+		height: 242px;
+		margin: 0 auto;
 		widthauto;
-		backgroundurl(applicationslogin-logoutimagesScissors356px.png) no-repeat 40px center;
+		background: url(applicationslogin-logoutimagesScissors356px.png) no-repeat 40px center;
 		background-sizecontain
 	}
 
 	.logout-paint-image {
-		height242px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_16_00670_73074473_Middle.jpg) no-repeat center center;
+		height: 242px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_16_00670_73074473_Middle.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.logout-door-image {
-		height242px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDB_16_00454_Mid-Logout_H_image.jpg) no-repeat center center;
+		height: 242px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDB_16_00454_Mid-Logout_H_image.jpg) no-repeat center center;
 		background-sizecover
 	}
 
-	.logout-door-image-2020 {
-		height308px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDB_16_00454_3_S.jpg) no-repeat center center;
+	.logout-door-image-: 2020 {
+		height: 308px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDB_16_00454_3_S.jpg) no-repeat center center;
 		background-sizecover
 	}
 
-	.dmp-raf2021-Jul {
-		backgroundurl(applicationslogin-logoutimagesRAF_2021_Jul_Logout_IMG_S.jpg) no-repeat center center;
+	.dmp-raf: 2021-Jul {
+		background: url(applicationslogin-logoutimagesRAF_2021_Jul_Logout_IMG_S.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
-	.logout-couple-image-2020 {
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDB_16_00454_1_S.jpg) no-repeat center center;
+	.logout-couple-image-: 2020 {
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDB_16_00454_1_S.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
-	.logout-dog-image-2020 {
-		height290px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDB_16_00454_2_S.jpg) no-repeat center center;
+	.logout-dog-image-: 2020 {
+		height: 290px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDB_16_00454_2_S.jpg) no-repeat center center;
 		background-sizecover
 	}
 
-	.logout-man-image-2020 {
-		height306px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDB_16_00454_4_S.jpg) no-repeat center center;
+	.logout-man-image-: 2020 {
+		height: 306px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDB_16_00454_4_S.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
-	.logout-doorlogo-image-2020 {
-		height336px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDB_16_00454_3_S_logo.jpg) no-repeat center center;
+	.logout-doorlogo-image-: 2020 {
+		height: 336px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDB_16_00454_3_S_logo.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
-	.logout-couplelogo-image-2020 {
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDB_16_00454_1_S_logo.jpg) no-repeat center center;
+	.logout-couplelogo-image-: 2020 {
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDB_16_00454_1_S_logo.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
-	.logout-doglogo-image-2020 {
-		height290px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDB_16_00454_2_S_logo.jpg) no-repeat center center;
+	.logout-doglogo-image-: 2020 {
+		height: 290px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDB_16_00454_2_S_logo.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
-	.logout-manlogo-image-2020 {
-		height306px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDB_16_00454_4_S_logo.jpg) no-repeat center center;
+	.logout-manlogo-image-: 2020 {
+		height: 306px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDB_16_00454_4_S_logo.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
 	.logout-run-image {
-		height242px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDSL_Log_Out_Image_Mid-Logout_H.jpg) no-repeat center center;
+		height: 242px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDSL_Log_Out_Image_Mid-Logout_H.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.logout-box-image {
-		height242px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_16_00902_Narrow-Logout.jpg) no-repeat center center;
+		height: 242px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_16_00902_Narrow-Logout.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.logout-box-image-cloths {
-		height428px;
-		backgroundurl(applicationslogin-logoutimagesDC_16_00934_Narrow_clothes_v2.jpg) no-repeat center center;
+		height: 428px;
+		background: url(applicationslogin-logoutimagesDC_16_00934_Narrow_clothes_v2.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.logout-raf-image {
-		height386px;
-		backgroundurl(applicationslogin-logoutimagesRAFCutouts_Image-Narrow.jpg) no-repeat center center;
+		height: 386px;
+		background: url(applicationslogin-logoutimagesRAFCutouts_Image-Narrow.jpg) no-repeat center center;
 		background-sizecover
 	}
 
-	.dmp-paypal2021-mar {
-		height277px
+	.dmp-paypal: 2021-mar {
+		height: 277px;
 	}
 
-	.dmp-paypal2021-may {
-		height315px
+	.dmp-paypal: 2021-may {
+		height: 315px;
 	}
 
 	.logout-cashback-bonus {
-		height272px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_16_01215_Wide_image.jpg) no-repeat center center;
+		height: 272px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_16_01215_Wide_image.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
@@ -2935,39 +2935,39 @@ h1.dmp-header-topx {
 		text-aligncenter
 	}
 
-	.logout-wrapper.logout-best-buy-q4 a {
+	.logout-wrapper.logout-best-buy-q: 4 a {
 		displayblock;
 		text-aligncenter
 	}
 
-	.logout-wrapper.logout-best-buy-q4 .logout-best-buy-image {
-		height242px
+	.logout-wrapper.logout-best-buy-q: 4 .logout-best-buy-image {
+		height: 242px;
 	}
 
 	.logout-widedoor-image {
-		height400px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimages01571_Middle.jpg) no-repeat center top;
+		height: 400px;
+		width: 100%;
+		background: url(applicationslogin-logoutimages: 01571_Middle.jpg) no-repeat center top;
 		background-sizecover
 	}
 
-	#amazon-bottom-text1 {
-		padding-top15px
+	#amazon-bottom-text: 1 {
+		padding-top: 15px;
 	}
 
 	.logout-boxdoor-image {
-		height425px
+		height: 425px;
 	}
 
-	#next-amazon2 {
+	#next-amazon: 2 {
 		text-aligncenter;
-		width92%
+		width: 92%;
 	}
 
 	.logout-detergentpaint-image {
-		height303px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_16_01956_wide_Img.jpg) no-repeat left center;
+		height: 303px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_16_01956_wide_Img.jpg) no-repeat left center;
 		background-sizecover
 	}
 
@@ -2975,59 +2975,59 @@ h1.dmp-header-topx {
 		background-sizecover
 	}
 
-	.dmp-partener-may19 {
-		height232px;
+	.dmp-partener-may: 19 {
+		height: 232px;
 		background-sizecontain
 	}
 
-	.dmp-walmart-jul19 {
-		height175px
+	.dmp-walmart-jul: 19 {
+		height: 175px;
 	}
 
 	#wfa-heading {
-		width100%
+		width: 100%;
 	}
 
 	.logout-bettersavings-image {
-		height250px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDB_17_00076_image_Middle_242_331.jpg) no-repeat center center;
+		height: 250px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDB_17_00076_image_Middle_242_331.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	#savings-heading {
-		margin-bottom0;
-		margin-left18px
+		margin-bottom: 0;
+		margin-left: 18px;
 	}
 
 	#savings-left {
-		margin-left18px
+		margin-left: 18px;
 	}
 
 	#dplpara {
-		width100%
+		width: 100%;
 	}
 
 	#savingspara {
-		width86%;
-		margin-left18px
+		width: 86%;
+		margin-left: 18px;
 	}
 
 	.logout-dpl-image {
-		height285px;
-		backgroundurl(applicationslogin-logoutimagesDB_17_00046_DPL_LogOff_331_242_Middle.jpg) no-repeat center center;
+		height: 285px;
+		background: url(applicationslogin-logoutimagesDB_17_00046_DPL_LogOff_331_242_Middle.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.logout-chevron-image {
-		height242px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_17_00274_Wide_Logout.jpg) no-repeat center center;
+		height: 242px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_17_00274_Wide_Logout.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
 	#chevron-heading {
-		width100%;
+		width: 100%;
 		text-aligncenter
 	}
 
@@ -3037,74 +3037,74 @@ h1.dmp-header-topx {
 
 	#chevron-para {
 		text-aligncenter;
-		width100%
+		width: 100%;
 	}
 
-	#chevron-para1 {
+	#chevron-para: 1 {
 		text-aligncenter;
-		width100%
+		width: 100%;
 	}
 
-	#chevron-para2 {
+	#chevron-para: 2 {
 		text-aligncenter;
-		width100%
+		width: 100%;
 	}
 
 	#chevron-height {
-		height55px
+		height: 55px;
 	}
 
-	#chevron-height1 {
-		height220px
+	#chevron-height: 1 {
+		height: 220px;
 	}
 
 	.logout-timeout-image {
-		height193px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_17_00085_DSL_LogOffTimeOut_331x242_middle.jpg) no-repeat center center;
-		background-size100% 100%
+		height: 193px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_17_00085_DSL_LogOffTimeOut_331x242_middle.jpg) no-repeat center center;
+		background-size: 100% 100%;
 	}
 
 	.timeout-mothersday-image {
-		height236px
+		height: 236px;
 	}
 
 	.logoff-wide-image {
-		height327px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC-17-00000_Logoff-WIDE_IMAGE_471x356-min.jpg) no-repeat center center;
+		height: 327px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC-: 17-: 00000_Logoff-WIDE_IMAGE_471x356-min.jpg) no-repeat center center;
 		background-sizecover
 	}
 
-	#wide-text1 .wide-para {
+	#wide-text: 1 .wide-para {
 		displaynone
 	}
 
-	#wide-text1 .cta-benefits {
-		padding-top42px
+	#wide-text: 1 .cta-benefits {
+		padding-top: 42px;
 	}
 
 	#space-benefits {
-		margin-bottom0
+		margin-bottom: 0;
 	}
 
-	#next-amazon3 {
+	#next-amazon: 3 {
 		widthinherit
 	}
 
 	.redamz-wide-image {
-		height200px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_17_00495_0417_Q2RedAmz_Narrow.jpg) no-repeat center center;
+		height: 200px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_17_00495_0417_Q2RedAmz_Narrow.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
-	#redamz-space1 {
-		margin-top25px
+	#redamz-space: 1 {
+		margin-top: 25px;
 	}
 
 	#redamz-space {
-		margin-top40px
+		margin-top: 40px;
 	}
 
 	.hide-class {
@@ -3112,26 +3112,26 @@ h1.dmp-header-topx {
 	}
 
 	#refer-space {
-		margin0
+		margin: 0;
 	}
 
 	.logout-restaurants-bonus {
-		height250px;
+		height: 250px;
 		background-sizecontain;
-		margin-top0;
-		margin-bottom20px
+		margin-top: 0;
+		margin-bottom: 20px;
 	}
 
-	#bonus-space1 {
-		margin-bottom34px
+	#bonus-space: 1 {
+		margin-bottom: 34px;
 	}
 
 	.logout-amazon-target {
-		height240px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_17_01249_Q45p_LogOff_Middle_v3.jpg) no-repeat center center;
+		height: 240px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_17_01249_Q45p_LogOff_Middle_v3.jpg) no-repeat center center;
 		background-sizecontain;
-		margin-bottom35px
+		margin-bottom: 35px;
 	}
 
 	#amazon-one {
@@ -3142,7 +3142,7 @@ h1.dmp-header-topx {
 		displayblock
 	}
 
-	.lock2 {
+	.lock: 2 {
 		displaynone
 	}
 
@@ -3150,87 +3150,87 @@ h1.dmp-header-topx {
 	.logout-rel-security,
 	.logout-dmp-itp-img,
 	.logout-dmp-samclub-img {
-		height272px
+		height: 272px;
 	}
 
 	.logout-dmp-dhl-abtest {
-		height227px
+		height: 227px;
 	}
 
 	.logout-dmp-dpl-time {
-		height278px
+		height: 278px;
 	}
 
 	.timeout-power-img {
-		margin28px 0 20px 0;
-		background-position0 0;
+		margin: 28px 0 20px 0;
+		background-position: 0 0;
 		background-sizecontain
 	}
 
 	.timeout-onetimernever-img {
-		margin35px 0 10px 0;
-		background-position0 0;
+		margin: 35px 0 10px 0;
+		background-position: 0 0;
 		background-sizecontain
 	}
 
 	.logout-image-board {
-		height292px;
-		backgroundurl(applicationslogin-logoutimagesimage_209-W_4.jpg) no-repeat center right;
+		height: 292px;
+		background: url(applicationslogin-logoutimagesimage_209-W_4.jpg) no-repeat center right;
 		background-sizecover;
-		margin-top22px
+		margin-top: 22px;
 	}
 
 	.dmp-dhe-adobe {
-		height290px;
+		height: 290px;
 		background-sizecover
 	}
 
-	.dmp-adobe-btimg-1,
-	.dmp-adobe-btimg-2,
-	.dmp-adobe-btimg-3 {
-		height290px;
+	.dmp-adobe-btimg-: 1,;
+	.dmp-adobe-btimg-: 2,;
+	.dmp-adobe-btimg-: 3 {
+		height: 290px;
 		background-sizecontain
 	}
 
-	.dmp-adobe-btimg-1 {
-		backgroundurl(applicationslogin-logoutimagesPOR_20_740859_BT_LO_LP_image_3_300X242.jpg) no-repeat center center
+	.dmp-adobe-btimg-: 1 {
+		background: url(applicationslogin-logoutimagesPOR_20_740859_BT_LO_LP_image_3_300X242.jpg) no-repeat center center;
 	}
 
-	.dmp-adobe-btimg-2 {
-		backgroundurl(applicationslogin-logoutimagesPOR_20_740859_BT_TO_LP_image_1_300X242.jpg) no-repeat center center
+	.dmp-adobe-btimg-: 2 {
+		background: url(applicationslogin-logoutimagesPOR_20_740859_BT_TO_LP_image_1_300X242.jpg) no-repeat center center;
 	}
 
-	.dmp-adobe-btimg-3 {
-		backgroundurl(applicationslogin-logoutimagesPOR_20_740859_BT_TO_LP_image_2_300X242.jpg) no-repeat center center
+	.dmp-adobe-btimg-: 3 {
+		background: url(applicationslogin-logoutimagesPOR_20_740859_BT_TO_LP_image_2_300X242.jpg) no-repeat center center;
 	}
 
 	.dmp-dhe-adobe {
 		background-imageurl(applicationslogin-logoutimagesSML_Timeout_dhe_img.jpg)
 	}
 
-	.logout-image209-board {
-		height348px;
-		backgroundurl(applicationslogin-logoutimagesimage_209-W_5.jpg) no-repeat center;
+	.logout-image: 209-board {
+		height: 348px;
+		background: url(applicationslogin-logoutimagesimage_209-W_5.jpg) no-repeat center;
 		background-sizecover;
-		margin-top38px
+		margin-top: 38px;
 	}
 
 	.csc-Alertstimeout {
-		height198px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesAlerts_CSC_Timeout_IMAGE_LRG_v4_1110.jpg) no-repeat center left;
+		height: 198px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesAlerts_CSC_Timeout_IMAGE_LRG_v4_1110.jpg) no-repeat center left;
 		background-sizecover
 	}
 
 	.csc-Alertstimeout12 {
-		height198px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDHE_TimeoutAd_July_R1.jpg) no-repeat center center;
+		height: 198px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDHE_TimeoutAd_July_R1.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.space {
-		margin-top8px
+		margin-top: 8px;
 	}
 
 	#csc-align {
@@ -3238,15 +3238,15 @@ h1.dmp-header-topx {
 	}
 
 	.csctimeout {
-		margin-bottom18px !important
+		margin-bottom: 18px !important;
 	}
 
 	.row.gasGround .gg-down {
-		margin-bottom26px
+		margin-bottom: 26px;
 	}
 
 	#gg-down {
-		margin-top0
+		margin-top: 0;
 	}
 
 	.row.gasGround .hidden-xs {
@@ -3254,141 +3254,141 @@ h1.dmp-header-topx {
 	}
 
 	.product-width-div {
-		border-top1px solid;
-		border-bottom0;
-		padding-top24px
+		border-top: 1px solid;
+		border-bottom: 0;
+		padding-top: 24px;
 	}
 
 	#product-border-bottom {
-		border-bottom1px solid;
-		padding-bottom24px
+		border-bottom: 1px solid;
+		padding-bottom: 24px;
 	}
 
-	.logout-box-1-jdp.logout-box-max-width {
-		max-height100%
+	.logout-box-: 1-jdp.logout-box-max-width {
+		max-height: 100%;
 	}
 
 	.btn-border-radius {
-		width56%
+		width: 56%;
 	}
 
 	.logback-button .see-terms-txt {
 		text-alignleft;
 		displayblock;
-		margin-top15px
+		margin-top: 15px;
 	}
 
 	#dmp-amazonb-content {
-		margin-top10px
+		margin-top: 10px;
 	}
 
 	.head-amazon-font {
-		margin-bottom25px
+		margin-bottom: 25px;
 	}
 
 	.buton-full-width {
-		width100%
+		width: 100%;
 	}
 
 	.as-trick {
-		padding-right10px
+		padding-right: 10px;
 	}
 
 	.btn-width-mobile {
-		max-width100%;
-		width100%
+		max-width: 100%;
+		width: 100%;
 	}
 
 	.img-first-top {
-		margin-top21px
+		margin-top: 21px;
 	}
 
 	.bottom-increase-space {
-		margin0 !important
+		margin: 0 !important;
 	}
 
-	.dmp-dpl2019-jul {
-		height290px
+	.dmp-dpl: 2019-jul {
+		height: 290px;
 	}
 
 	.row div#second-content.padding-space-right,
 	.row div#first-content.padding-space-right {
-		padding-right10px !important
+		padding-right: 10px !important;
 	}
 
 	.dmp-amazon-content {
-		margin-top0
+		margin-top: 0;
 	}
 
 	.logback-button .see-terms-txt.see-terms-sm {
 		text-aligncenter;
-		margin-left0
+		margin-left: 0;
 	}
 }
 
-@media(max-width650px) {
+@media(max-width: 650px) {
 	#learn-cta-stud {
-		margin-left91px;
-		font-size14px;
-		padding5px 7px 5px 7px
+		margin-left: 91px;
+		font-size: 14px;
+		padding: 5px 7px 5px 7px;
 	}
 
 	#login-cardmember-stud {
-		font-size13px;
-		margin-left57px
+		font-size: 13px;
+		margin-left: 57px;
 	}
 
 	.login-web-target.mobile-margin {
-		padding-left18px
+		padding-left: 18px;
 	}
 
 	#noncard-border {
 		border-leftnone;
-		border-bottom1px solid gray;
-		width45%;
-		height0;
-		margin0 25%
+		border-bottom: 1px solid gray;
+		width: 45%;
+		height: 0;
+		margin: 0 25%;
 	}
 
 	.noncardlogout {
-		max-height1050px
+		max-height: 1050px;
 	}
 
-	.login-wrapper .col-xs-12 {
-		width100%
+	.login-wrapper .col-xs-: 12 {
+		width: 100%;
 	}
 
 	.login-wrapper .login-web-target {
 		text-alignleft
 	}
 
-	.login-wrapper .login-web-target h1 {
-		margin-top30px
+	.login-wrapper .login-web-target h: 1 {
+		margin-top: 30px;
 	}
 
 	.login-wrapper .login-web-target .logincard-image {
-		height243px;
-		width263px;
-		margin0 auto;
-		margin-top20px
+		height: 243px;
+		width: 263px;
+		margin: 0 auto;
+		margin-top: 20px;
 	}
 
 	.login-wrapper .login-web-target .logincard-image-discover {
-		height100px;
-		width100%;
-		margin0 0 12px auto;
-		margin-top20px;
+		height: 100px;
+		width: 100%;
+		margin: 0 0 12px auto;
+		margin-top: 20px;
 		floatleft
 	}
 
 	.login-wrapper .login-web-target .logincard-image-studentcard {
-		height135px;
-		width100%;
-		margin0 0 12px auto;
-		margin-top20px;
+		height: 135px;
+		width: 100%;
+		margin: 0 0 12px auto;
+		margin-top: 20px;
 		floatleft;
-		margin-left39px;
-		margin-bottom31px
+		margin-left: 39px;
+		margin-bottom: 31px;
 	}
 
 	.login-wrapper p.dealsnew {
@@ -3396,17 +3396,17 @@ h1.dmp-header-topx {
 	}
 
 	.login-wrapper #login-cardmember {
-		font-size13px;
-		margin-left71px
+		font-size: 13px;
+		margin-left: 71px;
 	}
 
 	.login-wrapper #learn-cta {
-		margin-left85px
+		margin-left: 85px;
 	}
 
 	.login-web-target .reskin-animation-onb {
 		displayblock !important;
-		padding-top13px
+		padding-top: 13px;
 	}
 
 	.login-web-target .reskin-animation-ona {
@@ -3414,281 +3414,281 @@ h1.dmp-header-topx {
 	}
 }
 
-@media(max-width510px) {
+@media(max-width: 510px) {
 	.logout-run-image {
 		background-sizecontain
 	}
 
 	.logout-box-image-cloths {
-		height317px;
+		height: 317px;
 		background-sizecover
 	}
 }
 
-@media(max-width360px) {
+@media(max-width: 360px) {
 	.box-design {
-		width240px
+		width: 240px;
 	}
 
 	.logout-box-image-cloths {
-		height317px;
+		height: 317px;
 		background-sizecontain
 	}
 
-	#bonus-space1 {
-		margin-bottom56px;
-		height103px
+	#bonus-space: 1 {
+		margin-bottom: 56px;
+		height: 103px;
 	}
 
 	.logout-amazon-target {
-		height235px
+		height: 235px;
 	}
 }
 
-@media(max-width445px) {
+@media(max-width: 445px) {
 	.logout-boxdoor-image {
-		height285px
+		height: 285px;
 	}
 
 	.jpower-AlertsAwarenes {
-		height276px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesskydiver-slice-SM.jpg) no-repeat center center;
+		height: 276px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesskydiver-slice-SM.jpg) no-repeat center center;
 		background-sizecover
 	}
 }
 
-@media(min-width445px) and (max-width729px) {
+@media(min-width: 445px) and (max-width: 729px) {
 	.jpower-AlertsAwarenes {
-		height298px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesskydiver-slice-SM.jpg) no-repeat center center;
+		height: 298px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesskydiver-slice-SM.jpg) no-repeat center center;
 		background-sizecontain
 	}
 }
 
-@media(max-width600px) {
+@media(max-width: 600px) {
 	#logout-image {
-		height242px
+		height: 242px;
 	}
 }
 
-@media(min-width655px) and (max-width729px) {
+@media(min-width: 655px) and (max-width: 729px) {
 	.logout-WFALogoff-image {
-		height346px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC-17-00282_WFA_Logoff_mid-min.jpg) no-repeat center center;
+		height: 346px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC-: 17-: 00282_WFA_Logoff_mid-min.jpg) no-repeat center center;
 		background-sizecover
 	}
 }
 
-@media(min-width518px) and (max-width655px) {
+@media(min-width: 518px) and (max-width: 655px) {
 	.logout-WFALogoff-image {
-		height284px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC-17-00282_WFA_Logoff_mid-min.jpg) no-repeat center center;
+		height: 284px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC-: 17-: 00282_WFA_Logoff_mid-min.jpg) no-repeat center center;
 		background-sizecover
 	}
 }
 
-@media(min-width460px) and (max-width518px) {
+@media(min-width: 460px) and (max-width: 518px) {
 	.logout-WFALogoff-image {
-		height249px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC-17-00282_WFA_Logoff_mid-min.jpg) no-repeat center center;
+		height: 249px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC-: 17-: 00282_WFA_Logoff_mid-min.jpg) no-repeat center center;
 		background-sizecover
 	}
 }
 
-@media(max-width460px) {
+@media(max-width: 460px) {
 	.logout-WFALogoff-image {
-		height186px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC-17-00282_WFA_Logoff_mid-min.jpg) no-repeat center center;
+		height: 186px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC-: 17-: 00282_WFA_Logoff_mid-min.jpg) no-repeat center center;
 		background-sizecover
 	}
 }
 
-@media(min-width730px) and (max-width797px) {
+@media(min-width: 730px) and (max-width: 797px) {
 	#start-heading {
-		font-size37px
+		font-size: 37px;
 	}
 
 	#start-para {
-		font-size13px
+		font-size: 13px;
 	}
 
 	.cschead {
-		margin-left0 !important
+		margin-left: 0 !important;
 	}
 
 	.csctimeout {
-		width57%;
-		margin-left0 !important
+		width: 57%;
+		margin-left: 0 !important;
 	}
 }
 
-@media(min-width729px) and (max-width991px) {
-	#chevron-para1 {
-		width342px
+@media(min-width: 729px) and (max-width: 991px) {
+	#chevron-para: 1 {
+		width: 342px;
 	}
 
-	#chevron-para2 {
-		width353px
+	#chevron-para: 2 {
+		width: 353px;
 	}
 
 	.width-onetimernever {
-		width88%
+		width: 88%;
 	}
 
-	.width-onetimernever1 {
-		width82%
+	.width-onetimernever: 1 {
+		width: 82%;
 	}
 }
 
-@media(max-width375px) {
+@media(max-width: 375px) {
 	.redamz-wide-image {
-		height198px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_17_00495_0417_Q2RedAmz_Narrow.jpg) no-repeat 10px center;
-		background-size93% 100%
+		height: 198px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_17_00495_0417_Q2RedAmz_Narrow.jpg) no-repeat 10px center;
+		background-size: 93% 100%;
 	}
 
-	.logout-raf-image1 {
-		height219px;
+	.logout-raf-image: 1 {
+		height: 219px;
 		background-sizecontain
 	}
 }
 
-@media(max-width379px) {
+@media(max-width: 379px) {
 	.logout-dc-image {
-		height200px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_17_00762_Middle_370x242.jpg) no-repeat center center;
+		height: 200px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_17_00762_Middle_370x242.jpg) no-repeat center center;
 		background-sizecover
 	}
 
 	.logout-GulfPay-image {
-		height270px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_17_01014_GulfPay_LogOff_wide_img.jpg) no-repeat center center;
+		height: 270px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_17_01014_GulfPay_LogOff_wide_img.jpg) no-repeat center center;
 		background-sizecover
 	}
 }
 
-@media(min-width380px) and (max-width729px) {
+@media(min-width: 380px) and (max-width: 729px) {
 	.logout-dc-image {
-		height210px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_17_00762_Middle_370x242.jpg) no-repeat center center;
+		height: 210px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_17_00762_Middle_370x242.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
 	#dc-amazon {
-		width100%
+		width: 100%;
 	}
 
 	.logout-GulfPay-image {
-		height210px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_17_01014_GulfPay_LogOff_wide_img.jpg) no-repeat center center;
+		height: 210px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_17_01014_GulfPay_LogOff_wide_img.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
-	.logout-raf-image1 {
-		height252px;
+	.logout-raf-image: 1 {
+		height: 252px;
 		background-sizecontain
 	}
 }
 
-@media(max-width320px) {
+@media(max-width: 320px) {
 	.logout-GulfPay-image {
-		height227px;
-		width100%;
-		backgroundurl(applicationslogin-logoutimagesDC_17_01014_GulfPay_LogOff_wide_img.jpg) no-repeat center center;
+		height: 227px;
+		width: 100%;
+		background: url(applicationslogin-logoutimagesDC_17_01014_GulfPay_LogOff_wide_img.jpg) no-repeat center center;
 		background-sizecontain
 	}
 
 	.timeout-power-img {
-		margin25px 0 18px 0;
-		height238px
+		margin: 25px 0 18px 0;
+		height: 238px;
 	}
 
 	.timeout-onetimernever-img {
-		margin30px 0 10px 0;
-		height238px
+		margin: 30px 0 10px 0;
+		height: 238px;
 	}
 }
 
-@media(max-width729px) {
-	.logout-raf-image77 {
-		backgroundurl(applicationslogin-logoutimagesTieredOfferTimeout_320x242_narrow.jpg) no-repeat center center;
+@media(max-width: 729px) {
+	.logout-raf-image: 77 {
+		background: url(applicationslogin-logoutimagesTieredOfferTimeout_320x242_narrow.jpg) no-repeat center center;
 		background-sizecontain;
-		height282px
+		height: 282px;
 	}
 
-	.logout-raf-image78 {
-		backgroundurl(applicationslogin-logoutimagesPromoPrcngTimeout_320x242_narrow.jpg) no-repeat center center;
+	.logout-raf-image: 78 {
+		background: url(applicationslogin-logoutimagesPromoPrcngTimeout_320x242_narrow.jpg) no-repeat center center;
 		background-sizecontain;
-		height282px
+		height: 282px;
 	}
 
-	.logout-raf-image566,
-	.logout-raf-image567 {
+	.logout-raf-image: 566,;
+	.logout-raf-image: 567 {
 		background-sizecover !important;
-		height282px
+		height: 282px;
 	}
 
-	.logout-raf-image566 {
-		backgroundurl(applicationslogin-logoutimagesPOE_Narrow_320x242_option1.jpg) no-repeat center center
+	.logout-raf-image: 566 {
+		background: url(applicationslogin-logoutimagesPOE_Narrow_320x242_option1.jpg) no-repeat center center;
 	}
 
-	.logout-raf-image567 {
-		backgroundurl(applicationslogin-logoutimagesPOE_Narrow_320x242_option2.jpg) no-repeat center center
+	.logout-raf-image: 567 {
+		background: url(applicationslogin-logoutimagesPOE_Narrow_320x242_option2.jpg) no-repeat center center;
 	}
 
-	#img-container11 {
-		padding-left10px;
-		padding-right10px
+	#img-container: 11 {
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
-	.logout-box-image-cloths11 {
-		backgroundurl(applicationslogin-logoutimagesRWD1114_Q1Redemption_AmazonImage_TimeOut_Narrow.jpg) no-repeat center center;
+	.logout-box-image-cloths: 11 {
+		background: url(applicationslogin-logoutimagesRWD1114_Q1Redemption_AmazonImage_TimeOut_Narrow.jpg) no-repeat center center;
 		background-sizecontain !important
 	}
 }
 
-@media(max-width729px) {
+@media(max-width: 729px) {
 	.activation-container .amanda-gas-offer.offer-container .offer-img-container .offer-image {
-		width315px !important
+		width: 315px !important;
 	}
 
 	.container .row.lock .loading-container {
-		height170px
+		height: 170px;
 	}
 
 	.mobile-responsive .container {
-		padding0 15px
+		padding: 0 15px;
 	}
 
 	.activation-container .amanda-gas-offer.offer-container .row .offer-mob-view {
-		padding5px 20px;
-		width100% !important
+		padding: 5px 20px;
+		width: 100% !important;
 	}
 
 	.activation-container .amanda-gas-offer.offer-container {
-		margin20px 0 40px 0
+		margin: 20px 0 40px 0;
 	}
 
 	.activation-container .amanda-gas-offer.offer-container .offer-img-container {
-		padding10px 0 20px 0;
+		padding: 10px 0 20px 0;
 		text-aligncenter
 	}
 
 	.activation-container .amanda-gas-offer.offer-container .activate-btn-wrapper {
 		text-aligncenter;
-		margin-left-16px;
-		margin-bottom-18px
+		margin-left-: 16px;
+		margin-bottom-: 18px;
 	}
 
 	.grocery-store .activated-offer .offer-detail-info {
@@ -3696,124 +3696,124 @@ h1.dmp-header-topx {
 	}
 
 	.disclaimer-details {
-		padding-top12px !important
+		padding-top: 12px !important;
 	}
 
 	#calendar-menu-overlay.tooltip-overlay.new-reference-modal-tooltip {
-		width57%
+		width: 57%;
 	}
 
 	#calendar-menu-overlay.tooltip-overlay.new-reference-modal-tooltip .tooltip-body {
-		padding10px 15px 5px
+		padding: 10px 15px 5px;
 	}
 
 	.new-reference-modal-tooltip.tooltip-overlay {
-		width100% 0
+		width: 100% 0;
 	}
 }
 
-@media(min-width320px) and (max-width335px) {
+@media(min-width: 320px) and (max-width: 335px) {
 	.calendar-menu {
-		margin0 0 0 13px
+		margin: 0 0 0 13px;
 	}
 }
 
-@media(min-width362px) and (max-width400px) {
+@media(min-width: 362px) and (max-width: 400px) {
 	#calendar-menu-overlay.tooltip-overlay.new-reference-modal-tooltip {
-		width54% !important
+		width: 54% !important;
 	}
 }
 
-@media(min-width401px) and (max-width440px) {
+@media(min-width: 401px) and (max-width: 440px) {
 	#calendar-menu-overlay.tooltip-overlay.new-reference-modal-tooltip {
-		width50% !important
+		width: 50% !important;
 	}
 }
 
-@media(min-width441px) and (max-width470px) {
+@media(min-width: 441px) and (max-width: 470px) {
 	#calendar-menu-overlay.tooltip-overlay.new-reference-modal-tooltip {
-		width44% !important
+		width: 44% !important;
 	}
 }
 
-@media(min-width471px) and (max-width500px) {
+@media(min-width: 471px) and (max-width: 500px) {
 	#calendar-menu-overlay.tooltip-overlay.new-reference-modal-tooltip {
-		width41% !important
+		width: 41% !important;
 	}
 }
 
-@media(min-width501px) and (max-width605px) {
+@media(min-width: 501px) and (max-width: 605px) {
 	#calendar-menu-overlay.tooltip-overlay.new-reference-modal-tooltip {
-		width37% !important
+		width: 37% !important;
 	}
 }
 
-@media(min-width606px) and (max-width639px) {
+@media(min-width: 606px) and (max-width: 639px) {
 	#calendar-menu-overlay.tooltip-overlay.new-reference-modal-tooltip {
-		width33% !important
+		width: 33% !important;
 	}
 }
 
-@media(min-width640px) and (max-width732px) {
+@media(min-width: 640px) and (max-width: 732px) {
 	.main-content.promotions-container #calendar-menu-overlay.tooltip-overlay.new-reference-modal-tooltip {
-		width30% !important
+		width: 30% !important;
 	}
 }
 
-@media(max-width729px) and (min-width411px) {
+@media(max-width: 729px) and (min-width: 411px) {
 	#dmp-bottom-content {
-		bottom41px
+		bottom: 41px;
 	}
 }
 
-@media(max-width410px) and (min-width375px) {
+@media(max-width: 410px) and (min-width: 375px) {
 	#dmp-bottom-content {
-		bottom66px
+		bottom: 66px;
 	}
 }
 
-@media(max-width374px) and (min-width361px) {
+@media(max-width: 374px) and (min-width: 361px) {
 	#dmp-bottom-content {
-		bottom41px
+		bottom: 41px;
 	}
 }
 
-@media(max-width360px) and (min-width321px) {
+@media(max-width: 360px) and (min-width: 321px) {
 	#dmp-bottom-content {
-		bottom93px
+		bottom: 93px;
 	}
 }
 
-@media(max-width320px) {
+@media(max-width: 320px) {
 	#dmp-bottom-content {
-		bottom90px
+		bottom: 90px;
 	}
 }
 
-@media(min-width563px) and (max-width729px) {
-	.logout-stud-grad19 {
-		height260px !important
+@media(min-width: 563px) and (max-width: 729px) {
+	.logout-stud-grad: 19 {
+		height: 260px !important;
 	}
 
-	.logout-dmp-itp-img2019 {
-		height484px
-	}
-}
-
-@media(max-width564px) and (min-width421px) {
-	.logout-dmp-itp-img2019 {
-		height392px
+	.logout-dmp-itp-img: 2019 {
+		height: 484px;
 	}
 }
 
-@media(max-width729px) and (min-width437px) {
-	.dmp-walmartjun19-img {
-		height384px
+@media(max-width: 564px) and (min-width: 421px) {
+	.logout-dmp-itp-img: 2019 {
+		height: 392px;
 	}
 }
 
-@media(max-width436px) and (min-width428px) {
-	.dmp-walmartjun19-img {
-		height304px
+@media(max-width: 729px) and (min-width: 437px) {
+	.dmp-walmartjun: 19-img {
+		height: 384px;
+	}
+}
+
+@media(max-width: 436px) and (min-width: 428px) {
+	.dmp-walmartjun: 19-img {
+		height: 304px;
 	}
 }
